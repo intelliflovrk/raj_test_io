@@ -1,0 +1,377 @@
+{
+   "environments":{
+      "prd-10":{
+         "data":{
+            "users":{
+               "default":{
+                  "username":"automationuser1PRD13327",
+                  "password":"mMM5U1e2xK"
+               },
+               "clientshare_user":{
+                  "username":"clientshareuserPRD13327",
+                  "password":"Uvcvtyu5hg",
+                  "firstname":"ClientShare"
+               },
+               "delegate_user":{
+                  "username":"delegationuserPRD13327",
+                  "password":"hytfzp6Zjx"
+               },
+               "task_user":{
+                  "username":"taskuserPRD13327",
+                  "password":"NzwN3y8I"
+               },
+               "gff_adviser_user": {
+                  "username": "gffuserPRD13327",
+                  "password": "QZ8Siw48ij"
+               },
+               "pfp_client": {
+                  "username": "automation_pfp_client_prd13327@mailinator.com",
+                  "password": "qT[7Pk{@DG?G",
+                  "client_id": "25883532"
+               },
+               "pfp_imps_client": {
+                  "username": "automationpfpimpsuser1prd13327@endtest.io",
+                  "password": "J8kDLXAuQz",
+                  "client_id": "27773128"
+               }
+
+            },
+            "api_data":{
+               "client_secret":"C@)tj$cAIvNu36HBfF*!&qBtc",
+               "client_id":"qa-tenant-credentials",
+               "scopes": "client_data client_financial_data openid profile firm_data workflow crm"
+            },
+            "app":{
+               "app_id":"fcfd4ed",
+               "resource_owner_client_id":"app-fcfd4ed-acf-b4b19ce4d88e4a30b37bf590862742f7",
+               "resource_owner_client_secret":"p])nd4LTOyTz=W[zUjWlXd%oy&X:Z:",
+               "resource_owner_scopes":"client_data client_financial_data firm_data fund_data openid profile myprofile offline_access apps securemessaging crm",
+               "tenant_client_credential_client_id":"app-fcfd4ed-tcf-4b04d65f280d476d868250a9cf1163e7",
+               "tenant_client_credential_client_secret":"+C2nSnM*.GLS-pu0Mt%J{dJo.OaolR",
+               "tenant_client_credential_scopes":"client_data client_financial_data firm_data fund_data openid profile myprofile apps factfind"
+            },
+            "automation_test_app": {
+               "app_id":"a16cad3"
+            },
+            "apps":{
+               "imps_app":{
+                  "app_id": "2ee6f51",
+                  "tenant_client_credential_client_id": "app-2ee6f51-tcf-7dea1de07a034b77a59d6b0800210c7e",
+                  "tenant_client_credential_client_secret": "*H6dXDzRcdT0q41;/OexvMc*Q%_Jjx",
+                  "tenant_client_credential_scopes": "myprofile openid apps"
+               }
+            },
+            "tenant":{
+               "id":"13327"
+            }
+         }
+      },
+      "uat-10":{
+         "data":{
+            "users":{
+               "default":{
+                  "username":"automationuser1UAT11744",
+                  "password":"Pa55word1"
+               },
+               "clientshare_user":{
+                  "username":"clientshareuserUAT11744",
+                  "password":"6wkuRdd3MV",
+                  "firstname":"ClientShare"
+               },
+               "delegate_user":{
+                  "username":"delegationuserUAT11744",
+                  "password":"9ihwdQd8P1"
+               },
+               "task_user":{
+                  "username":"taskuserUAT11744",
+                  "password":"8FNt2UzU"
+               },
+               "gff_adviser_user": {
+                  "username": "",
+                  "password": ""
+               },
+               "pfp_client": {
+                  "username": "",
+                  "password": "",
+                  "client_id": ""
+               },
+               "pfp_imps_client": {
+                  "username": "automationpfpimpsuser1uat11744@endtest.io",
+                  "password": "tyhy6R7PSg",
+                  "client_id": "22432011"
+               }
+            },
+            "api_data":{
+               "client_secret":"C@)tj$cAIvNu36HBfF*!&qBtc",
+               "client_id":"qa-tenant-credentials",
+               "scopes": "client_data client_financial_data openid profile firm_data workflow crm"
+            },
+            "app":{
+               "app_id":"619e78f",
+               "resource_owner_client_id":"app-619e78f-acf-a8fbe9ae09d54f4c9ad8eced57455eca",
+               "resource_owner_client_secret":"2_2gLG|LL6r+J5vH8Y=k&$>NAV#fMn",
+               "resource_owner_scopes":"client_data client_financial_data firm_data fund_data openid profile myprofile offline_access apps securemessaging crm",
+               "tenant_client_credential_client_id":"app-619e78f-tcf-82c523c9b0dd4785ba0dd52b90784902",
+               "tenant_client_credential_client_secret":"D;Y.Wzg4zhqk3i[=fco($[B+$Z=q4]",
+               "tenant_client_credential_scopes":"client_data client_financial_data firm_data fund_data openid profile myprofile apps securemessaging factfind"
+            },
+            "automation_test_app": {
+               "app_id":"d5b2831"
+            },
+            "apps":{
+               "imps_app":{
+                  "app_id": "cd90365",
+                  "tenant_client_credential_client_id": "app-cd90365-tcf-7637c4ad3b7e4f44be39f7bf9a769e70",
+                  "tenant_client_credential_client_secret": "QE+)c_mTHErKT3edois8n@20[:pB_C",
+                  "tenant_client_credential_scopes": "myprofile openid apps"
+               }
+            },
+            "tenant":{
+               "id":"11744"
+            }
+         }
+      },
+      "tst-02":{
+         "data":{
+            "users":{
+               "default":{
+                  "username":"automationuser1TST0210192",
+                  "password":"ZJGzh76Dva"
+               },
+               "clientshare_user":{
+                  "username":"clientshareuserTST0210192",
+                  "password":"R2p2ADCzJS",
+                  "firstname":"ClientShare"
+               },
+               "delegate_user":{
+                  "username":"delegationuserTST0210192",
+                  "password":"4ysEFRhQz6"
+               },
+               "task_user":{
+                  "username":"taskuserTST0210192",
+                  "password":"R2ukSYa7"
+               },
+               "gff_adviser_user": {
+                  "username": "",
+                  "password": ""
+               },
+               "pfp_client": {
+                  "username": "",
+                  "password": "",
+                  "client_id": ""
+               },
+               "pfp_imps_client": {
+                  "username": "automationpfpimpsuser1tst0210192@endtest.io",
+                  "password": "cqeYyD9Z3D",
+                  "client_id": "7604502"
+               }
+            },
+            "api_data":{
+               "client_secret":"C@)tj$cAIvNu36HBfF*!&qBtc",
+               "client_id":"qa-tenant-credentials",
+               "scopes": "client_data client_financial_data openid profile firm_data workflow crm"
+            },
+            "app":{
+               "app_id": "1435336",
+               "resource_owner_client_id": "app-1435336-acf-9b068e92007e42ef836c06fbe0d1c2aa",
+               "resource_owner_client_secret": "GVK-LCN@+n^Dq_0oR9C>DF?Df?xkiv",
+               "resource_owner_scopes": "client_data client_financial_data firm_data fund_data openid profile myprofile offline_access apps securemessaging crm",
+               "tenant_client_credential_client_id": "app-1435336-tcf-a499875ff1d949cbbabd6559279b98f9",
+               "tenant_client_credential_client_secret": "XsWJA}NN$Yyb%;6EhJNnGGrhB$#H:D",
+               "tenant_client_credential_scopes": "client_data client_financial_data firm_data fund_data openid profile myprofile apps securemessaging factfind"
+            },
+            "automation_test_app": {
+               "app_id":"869e524"
+            },
+            "apps":{
+               "imps_app":{
+                  "app_id": "1a2b236",
+                  "tenant_client_credential_client_id": "app-1a2b236-tcf-b69484df65df49f89b1defbf4471cbd2",
+                  "tenant_client_credential_client_secret": "1zsU*{pg9_M6)S%yifNH6l^v-EI}5C",
+                  "tenant_client_credential_scopes": "myprofile openid apps"
+               }
+            },
+            "tenant":{
+               "id":"10192"
+            }
+         }
+      },
+      "tst-04":{
+         "data":{
+            "users":{
+               "default":{
+                  "username":"automationuser1TST0410168",
+                  "password":"L9QUdC2RkT"
+               },
+               "clientshare_user":{
+                  "username":"clientshareuserTST0410168",
+                  "password":"H3X2vpWL4G",
+                  "firstname":"ClientShare"
+               },
+               "delegate_user":{
+                  "username":"delegationuserTST0410168",
+                  "password":"zKoCNp2jBa"
+               },
+               "task_user":{
+                  "username":"taskuserTST0410168",
+                  "password":"m5zPnK9Y"
+               },
+               "gff_adviser_user": {
+                  "username": "gffuserTST0410168",
+                  "password": "EMe6rGDuja"
+               },
+               "pfp_client": {
+                  "username": "automation_pfp_client_TST0410168@mailinator.com",
+                  "password": "N6EKtyPy7C",
+                  "client_id": "6197829"
+               }
+            },
+            "api_data":{
+               "client_secret":"C@)tj$cAIvNu36HBfF*!&qBtc",
+               "client_id":"qa-tenant-credentials",
+               "scopes": "client_data client_financial_data openid profile firm_data workflow crm"
+            },
+            "app":{
+               "app_id": "f82f9ee",
+               "resource_owner_client_id": "app-f82f9ee-acf-a841fa4926cd4f1a9e55b55b3f55d6f1",
+               "resource_owner_client_secret": "r!Y4RX3>Ljwd9V7nb_ub&o2:#sdEnb",
+               "resource_owner_scopes": "client_data client_financial_data firm_data fund_data openid profile myprofile apps securemessaging crm",
+               "tenant_client_credential_client_id": "app-f82f9ee-tcf-6358e3bc6bb44bd19eb9104bf0de51f9",
+               "tenant_client_credential_client_secret": "P/27S5PJRBNG0SVdlUk!]5#695g@Ct",
+               "tenant_client_credential_scopes": "client_data client_financial_data firm_data fund_data openid profile myprofile apps securemessaging factfind"
+            },
+            "automation_test_app": {
+               "app_id":"628f66a"
+            },
+            "apps":{
+               "imps_app":{
+                  "app_id": "string",
+                  "tenant_client_credential_client_id": "string",
+                  "tenant_client_credential_client_secret": "string",
+                  "tenant_client_credential_scopes": "string"
+               }
+            },
+            "tenant":{
+               "id":"string"
+            }
+         }
+      },
+      "tst-05":{
+         "data":{
+            "users":{
+               "default":{
+                  "username":"automationuser1TST0510168",
+                  "password":"OupQVcWb3d"
+               },
+               "clientshare_user":{
+                  "username":"clientshareuserTST0510168",
+                  "password":"TTG9Mcdyhv",
+                  "firstname":"ClientShare"
+               },
+               "delegate_user":{
+                  "username":"delegationuserTST0510168",
+                  "password":"2XVCU7ehjH"
+               },
+               "task_user":{
+                  "username":"taskuserTST0510168",
+                  "password":""
+               },
+               "gff_adviser_user": {
+                  "username": "",
+                  "password": ""
+               },
+               "pfp_client": {
+                  "username": "",
+                  "password": "",
+                  "client_id": ""
+               }
+            },
+            "api_data":{
+               "client_secret":"C@)tj$cAIvNu36HBfF*!&qBtc",
+               "client_id":"qa-tenant-credentials",
+               "scopes": "client_data client_financial_data openid profile firm_data workflow crm"
+            },
+            "app":{
+               "app_id": "924d4fe",
+               "resource_owner_client_id": "app-924d4fe-acf-710f4129f91a492ab01ac05c10519794",
+               "resource_owner_client_secret": "yl)!g%{*p=AyHXO=#^(cI$uVW2dnyY",
+               "resource_owner_scopes": "client_data client_financial_data firm_data fund_data openid profile  myprofile offline_access apps securemessaging",
+               "tenant_client_credential_client_id": "app-924d4fe-tcf-1800277366004b1eace4bbab9accface",
+               "tenant_client_credential_client_secret": "yl)!g%{*p=AyHXO=#^(cI$uVW2dnyY",
+               "tenant_client_credential_scopes": "client_data client_financial_data firm_data fund_data openid profile myprofile factfind"
+            },
+            "apps":{
+               "imps_app":{
+                  "app_id": "string",
+                  "tenant_client_credential_client_id": "string",
+                  "tenant_client_credential_client_secret": "string",
+                  "tenant_client_credential_scopes": "string"
+               }
+            },
+            "tenant":{
+               "id":"10168"
+            }
+         }
+      },
+      "tst-20":{
+         "data":{
+            "users":{
+               "default":{
+                  "username":"automationuser1PRD13327",
+                  "password":"mMM5U1e2xK"
+               },
+               "clientshare_user":{
+                  "username":"clientshareuserPRD13327",
+                  "password":"Uvcvtyu5hg",
+                  "firstname":"ClientShare"
+               },
+               "delegate_user":{
+                  "username":"delegationuserPRD13327",
+                  "password":"hytfzp6Zjx"
+               },
+               "task_user":{
+                  "username":"taskuserPRD13327 ",
+                  "password":""
+               },
+               "gff_adviser_user": {
+                  "username": "",
+                  "password": ""
+               },
+               "pfp_client": {
+                  "username": "",
+                  "password": "",
+                  "client_id": ""
+               }
+            },
+            "api_data":{
+               "client_secret":"C@)tj$cAIvNu36HBfF*!&qBtc",
+               "client_id":"qa-tenant-credentials",
+               "scopes": "client_data client_financial_data openid profile firm_data workflow crm"
+            },
+            "app":{
+               "app_id":"fcfd4ed",
+               "resource_owner_client_id":"app-fcfd4ed-acf-b4b19ce4d88e4a30b37bf590862742f7",
+               "resource_owner_client_secret":"p])nd4LTOyTz=W[zUjWlXd%oy&X:Z:",
+               "resource_owner_scopes":"client_data client_financial_data firm_data fund_data openid profile myprofile offline_access apps crm",
+               "tenant_client_credential_client_id":"app-fcfd4ed-tcf-4b04d65f280d476d868250a9cf1163e7",
+               "tenant_client_credential_client_secret":"+C2nSnM*.GLS-pu0Mt%J{dJo.OaolR",
+               "tenant_client_credential_scopes":"client_data client_financial_data firm_data fund_data openid profile myprofile apps factfind"
+            },
+            "automation_test_app": {
+               "app_id":"a16cad3"
+            },
+            "apps":{
+               "imps_app":{
+                  "app_id": "string",
+                  "tenant_client_credential_client_id": "string",
+                  "tenant_client_credential_client_secret": "string",
+                  "tenant_client_credential_scopes": "string"
+               }
+            },
+            "tenant":{
+               "id":"13327"
+            }
+         }
+      }
+   }
+}

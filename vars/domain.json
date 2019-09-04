@@ -1,0 +1,34 @@
+{
+    "environments": {
+        "prd-10": {
+            "domains": {
+                "io": "https://www.intelligent-office.net",
+                "pfp": "https://prd-automation.mypfp.co.uk/",
+                "iostore": "https://intelligent-office.store",
+                "devhub": "https://developer.intelliflo.com",
+                "identity": "https://identity.intelliflo.com",
+                "ms-api": "https://{}.intelliflo.com"
+            }
+        },
+        "uat-10": {
+            "domains": {
+                "io": "https://www.uat.site10.intelligent-office.net",
+                "pfp": "https://automation.uat-mypfp.co.uk/",
+                "iostore": "https://uat-apps.intelligent-office.net",
+                "devhub": "https://uat-developer.intelliflo.com",
+                "identity": "https://uat-identity.intelliflo.com",
+                "ms-api": "https://uat-{}.intelliflo.com"
+            }
+        },
+        "tst": {
+            "domains": {
+                "io": "https://{}.test.intelliflo.com",
+                "pfp": "https://automation.{}-pfp.test.intelliflo.com/",
+                "iostore": "https://{}-apps.intelligent-office.net",
+                "devhub": "https://{}-developer.test.intelliflo.com",
+                "identity": "https://{}-identity.test.intelliflo.com",
+                "ms-api": "https://{}.test.intelliflo.com"
+            }
+        }
+    }
+}

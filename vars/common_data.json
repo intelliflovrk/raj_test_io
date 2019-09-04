@@ -1,0 +1,3388 @@
+
+{
+   "common_data":{
+      "advisers":{
+         "default":{
+            "firstname":"Automation",
+            "lastname":"User"
+         },
+         "client_share_user":{
+            "first_name":"clientshare",
+            "last_name":"user",
+            "full_name":"clientshare user",
+            "user_name":"AutomationUser2",
+            "password":"Pa55word"
+         },
+         "delegation_user":{
+            "first_name":"Delegation",
+            "last_name":"User",
+            "full_name":"Delegation User"
+         }
+      },
+      "clients":{
+         "default":{
+            "firstname":"Automation",
+            "lastname":"Client"
+         },
+         "merge":{
+            "firstname":"Merge",
+            "lastname":"Client",
+            "fullname":"Merge Client"
+         },
+         "pfp_imps_client":{
+            "firstname":"Automation",
+            "lastname":"PFP iMPS Client1"
+         }
+      },
+      "basic_data":{
+         "basic_address":{
+            "BASIC_ADDRESS_LINE_1":"100",
+            "BASIC_ADDRESS_LINE_2":"Basic Floor",
+            "BASIC_ADDRESS_LINE_3":"Basic Street",
+            "BASIC_ADDRESS_LINE_4":"Basic Town",
+            "BASIC_CITY_TOWN":"Basic City",
+            "BASIC_POST_CODE":"AB1 XY9"
+         },
+         "special_basic_address":{
+            "BASIC_ADDRESS_LINE_1":"100",
+            "BASIC_ADDRESS_LINE_2":"Basic Floor",
+            "BASIC_ADDRESS_LINE_3":"Basic Street",
+            "BASIC_CITY_TOWN":"Basic City",
+            "BASIC_POST_CODE":"AB1 XY9"
+         },
+         "basic_postcode":{
+            "BASIC_POST_CODE":"AB1 XY9"
+         },
+         "basic_text":{
+            "BASIC_TEXT":"Basic Text"
+         },
+         "basic_integer":{
+            "BASIC_INTEGER":"12"
+         },
+         "basic_opportunity_type":"Equity Release",
+         "basic_campaign_type":"Advertisement",
+         "basic_fee_model":"Test Automation Fee Model",
+         "basic_service_status":"Test Automation Service Status",
+         "basic_service_case":"Test Automation Service Case",
+         "basic_contact":{
+            "BASIC_MOBILE_NUMBER":"0123456789",
+            "BASIC_FAX_NUMBER":"123 123 1234"
+         },
+         "relationship_status":"Spouse",
+         "task_status": "Waiting for Response"
+      },
+      "test_data":{
+         "compliance_data":{
+            "SEARCH_TYPE":"Search File Check Advanced"
+         },
+         "investment_plan_data":{
+            "ADVISER_FIRST_NAME":"Automation",
+            "PLAN_PROVIDER":"Aegon (Cofunds)",
+            "PLAN_TYPE":"ISA (Stocks And Shares)",
+            "LUMP_SUM_AMOUNT":"1000.00",
+            "ADVICE_TYPE":"New Business - Investments",
+            "REGULAR_CONTRIBUTION_AMOUNT":"0.00"
+         },
+         "retirement_plan_data":{
+            "ADVISER_FIRST_NAME":"Automation",
+            "PLAN_PROVIDER":"Aegon (Cofunds)",
+            "DEFAULT_PLAN_TYPE":"SIPP",
+            "PLAN_TYPES":[
+               "Personal Pension Plan"
+            ],
+            "LUMP_SUM_AMOUNT":"1000.00",
+            "ADVICE_TYPE":"New Business - Pension",
+            "REGULAR_CONTRIBUTION_AMOUNT":"0.00",
+            "SUB_PLAN_TYPE":"Cash Account",
+            "SUB_PLAN_ADVICE_TYPE":"New Business - Investments"
+         },
+         "mortgage_plan_data":{
+            "ADVISER_FIRST_NAME":"Automation",
+            "PLAN_PROVIDER":"Abacus Mortgages",
+            "PLAN_TYPE":"Mortgage (Buy To Let)",
+            "LUMP_SUM_AMOUNT":"1000.00",
+            "REGULAR_CONTRIBUTION_AMOUNT":"0.00",
+            "ADVICE_TYPE":"New Business - Mortgages",
+            "price_valuation":"90",
+            "deposit_equity":"95"
+         },
+         "protection_plan_data":{
+            "ADVISER_FIRST_NAME":"Automation",
+            "PLAN_PROVIDER":"AEGON Scottish Equitable",
+            "DEFAULT_PLAN_TYPE":"Term Protection",
+            "ADVICE_TYPE":"New Business - Protection",
+            "PLAN_TYPES":[
+               "Term Protection (Family Income Benefit)",
+               "Income Protection",
+               "Whole Of Life"
+            ],
+            "protection_plan_details_form":{
+               "LIFE_COVER_SUM_ASSURED":"120000",
+               "LIFE_COVER_TERM":"25",
+               "PREMIUM_AMOUNT":"33.24",
+               "PREMIUM_FREQUENCY":"Monthly"
+            }
+         },
+         "scheme_data": {
+            "PLAN_PROVIDER": "Aegon (Cofunds)",
+            "SCHEME_TYPE": "Group Pension",
+            "PLAN_TYPE": "Group Personal Pension",
+            "SCHEME_NAME": "Basic Scheme Name",
+            "CATEGORY_NAME": "Basic Category Name"
+         },
+         "plan_provider": "Fidelity Investments",
+         "plan_type": "ISA (Stocks And Shares)",
+         "valuation_data": {
+            "plan_value": "500.00"
+         },
+         "fund_data": {
+            "no_of_units": "3.0000",
+            "fund_name": "Aegon 40",
+            "gross_purchase": "57.00"
+         },
+         "fee_data": {
+            "fee_type": "Client Paid - Initial Fee",
+            "fee_category": "Initial Fee",
+            "payment_type_cheque": "Cheque",
+            "payment_type_by_provider": "By Provider",
+            "fee_charging_type": "Fixed Price",
+            "advice_category": "Independent Advice",
+            "initial_period": "12",
+            "fee_due_status": "Due",
+            "fee_delete_status": "Deleted",
+            "fee_paid_status": "Paid",
+            "fee_cancelled_status": "Cancelled",
+            "fee_draft_status": "Draft",
+            "fee_amount": "120.00",
+            "plan_fee_provider": "Abacus Mortgages"
+         },
+         "lead_data": {
+            "STATUS": "Qualified",
+            "leads_import_file_name": "LeadsImport.csv",
+            "task_category": "Test Automation Task Category",
+            "task_type": "Test Automation Task Type"
+         },
+         "client_share_data": {
+            "assigned_to": "ClientShare User"
+         },
+         "workflow_data": {
+            "category_name": "Test Automation Category ",
+            "template_name": "Test Automation Template ",
+            "workflow_actions": {
+               "add_step": "Add Step",
+               "change_status": "Change Status"
+            },
+            "select_step_task": "Task",
+            "assign_to_context_role": "Context Role",
+            "assign_to_logged_in_user": "Logged in User",
+            "task_owner": "Automation TnCCoach"
+         },
+         "add_basic_client_details": {
+            "client_type": "Corporate",
+            "FIRST_LIFE_TITLE_SELECT_BOX": "Miss",
+            "FIRST_LIFE_GENDER_SELECT_BOX": "Female",
+            "DATE_OF_BIRTH": "01/01/1960",
+            "first_name": "UIFirstname",
+            "last_name": "UILastname",
+            "corporate_name": "UICorporateClient",
+            "first_life_client_category": "Retail Client"
+         },
+         "gff_client_data": {
+            "fullname": "PFP_Automation Client",
+            "DOB_DATE": "01",
+            "DOB_MONTH": "12",
+            "DOB_YEAR": "1960",
+            "UPDATED_DOB_DATE": "14",
+            "UPDATED_DOB_MONTH": "09",
+            "UPDATED_DOB_YEAR": "1984",
+            "Title": "Mr",
+            "Gender": "Male",
+            "PLACE_OF_BIRTH": "London",
+            "NATIONALITY": "English",
+            "RESIDENCE": "yes",
+            "HEALTH_STATUS": "yes",
+            "SMOKE_STATUS": "NotAtAll",
+            "WILL_STATUS": "no",
+            "RELATIONSHIP_TYPE": "Spouse",
+            "MARITAL_STATUS": "Married",
+            "MIDDLE_NAME": "Automation_Middle_Name"
+         },
+          "gff_employment_data": {
+            "status": "Employed",
+            "employer_name": "Test_Employer",
+            "occupation": "Test_Automation",
+            "start_date": "01/01/2000"
+         },
+         "add_ni_number": {
+            "NI_NUMBER": "AA123456B"
+         },
+         "add_relationship_data": {
+            "employee": "Employee",
+            "spouse": "Spouse"
+         },
+         "add_basic_lead_details": {
+            "FIRST_LIFE_TITLE_SELECT_BOX": "Miss",
+            "FIRST_LIFE_GENDER_SELECT_BOX": "Female",
+            "DATE_OF_BIRTH": "01/01/1960",
+            "first_name": "UIFirstname",
+            "last_name": "UILastname"
+         },
+         "fact_find_data": {
+            "DOCUMENT_TYPE": {
+               "COMBINED_DISCLOSURE_DOCUMENTS": "Combined Disclosure Documents",
+               "KEY_FACTS_ABOUT_SERVICES": "Key Facts About Services"
+            },
+            "risk_question_category": {
+               "QUESTION_ONE": "Strongly Agree",
+               "QUESTION_TWO": "Strongly Disagree",
+               "QUESTION_THREE": "Strongly Agree",
+               "QUESTION_FOUR": "Strongly Disagree",
+               "QUESTION_FIVE": "Strongly Agree"
+            },
+            "risk_clear_data": {
+               "QUESTION_ONE": "select...",
+               "QUESTION_TWO": "select...",
+               "QUESTION_THREE": "select...",
+               "QUESTION_FOUR": "select...",
+               "QUESTION_FIVE": "select..."
+            },
+            "DATE_ISSUED": "01/01/1990",
+            "EMPLOYMENT_STATUS": "Employed",
+            "MARITAL_STATUS": "Married",
+            "NATIONAL_INSURANCE_NUMBER": "AA123456B",
+            "CONTACT_VALUE": "01234567890",
+            "CONTACT_TYPE": "Solicitor",
+            "LIABILITY_CATEGORY": "Personal Loans",
+            "CONSENT_DATE": "01/01/1990",
+            "professional_contact_form": {
+               "CONTACT_TYPE": "Accountants",
+               "CONTACT_NAME": "Basic Name",
+               "ADDRESS_LINE1": "No. 1",
+               "ADDRESS_LINE2": "Basic address line 1",
+               "ADDRESS_LINE3": "Basic address line 2",
+               "ADDRESS_LINE4": "Basic address line 3"
+            },
+            "employment_details_form": {
+               "EMPLOYER": "Basic Employer Name",
+               "RETIREMENT_AGE": "65",
+               "EMPLOYMENT_START_DATE": "01/01/1990",
+               "EMPLOYMENT_END_DATE": "01/01/1990",
+               "GROSS_INCOME": "99999"
+            },
+            "budget_expenditure_form": {
+               "RENT_AMOUNT": "20",
+               "CLOTHING_AMOUNT": "20",
+               "GYM_AMOUNT": "20",
+               "PERSONAL_LOAN_AMOUNT": "20"
+            },
+            "pdf_name": "Fact Find.pdf",
+            "client_data_file_name": "ClientData.dt"
+         },
+         "fact_find_building_content_form": {
+            "existing_building_insurance": "true",
+            "existing_content_insurance": "true",
+            "buy_to_let_properties": "true",
+            "sufficient_building_insurance": "true",
+            "sufficient_protection": "true",
+            "ADDRESS_THIS_TEXTFIELD": "string",
+            "WHEN_DO_YOU_WANT_TO_REVIEW": "string",
+            "REASON_FOR_REVIEW": "string"
+         },
+         "fact_find_life_critical_form": {
+            "is_mortgage_debt_cleared": "true",
+            "life_standards_critical_illness": "true",
+            "life_standards_death": "true",
+            "cost_of_protection": "true",
+            "IMPACT_ON_CUSTOMER": "string",
+            "IMPACT_ON_DEPENDANTS": "string",
+            "ADDRESS_THIS_TEXTFIELD": "string",
+            "REASON_TO_REVIEW": "string"
+         },
+         "fact_find_income_protection_form": {
+            "unable_to_work_illness": "true",
+            "unable_to_work_unemployment": "true",
+            "IMPACT_ON_CUSTOMER": "string",
+            "IMPACT_ON_DEPENDANTS": "string",
+            "ADDRESS_THIS_TEXTFIELD": "string",
+            "REASON_NOT_REVIEW": "string"
+         },
+         "fact_find_income_details_form": {
+            "DESCRIPTION": "Income Description",
+            "INCOME_AMOUNT": "240",
+            "FREQUENCY": "Annually"
+         },
+         "fact_find_income_monthly_total": {
+            "MONTHLY_TOTAL": "20.00"
+         },
+         "budget_expenditure_total_monthly_amount": {
+            "TOTAL_MONTHLY_HOUSEHOLD_EXPENDITURE": "80.00"
+         },
+         "budget_total_net_monthly_expenditure": {
+            "TOTAL_NET_MONTHLY_EXPENDITURE": "80.00"
+         },
+         "budget_total_monthly_disposable_income": {
+            "TOTAL_MONTHLY_DISPOSABLE_INCOME": "-60.00"
+         },
+         "fact_find_add_existing_provision_term_protection": {
+            "TYPE_OF_CONTRACT": "Term Protection",
+            "PRODUCT_NAME": "This is a term protection",
+            "LIFE_COVER_SUM": "1000.00",
+            "CRITICAL_ILLNESS_SUM": "1000.00"
+         },
+         "fact_find_add_existing_provision_income_protection": {
+            "TYPE_OF_CONTRACT": "Income Protection",
+            "PRODUCT_NAME": "This is an income protection"
+         },
+         "fact_find_add_existing_provision_whole_of_life": {
+            "TYPE_OF_CONTRACT": "Whole Of Life",
+            "PRODUCT_NAME": "This is a Whole of Life"
+         },
+         "fact_find_add_existing_provision_family_income_benefit": {
+            "TYPE_OF_CONTRACT": "Term Protection (Family Income Benefit)",
+            "PRODUCT_NAME": "This is a term protection (Family Income Benefit)"
+         },
+         "fact_find_retirement_state_pension_form": {
+            "RETIREMENT_AGE": "65",
+            "BASIC_PENSION": "45.45",
+            "PENSION_CREDIT": "45.23",
+            "NOTES": "string"
+         },
+         "fact_find_retirement_goals_retirement_form - Growth with Target": {
+            "GOAL_TYPE": "Growth with Target",
+            "GOAL_DESCRIPTION": "string",
+            "DETAILS_NOTES": "string"
+         },
+         "fact_find_retirement_goals_retirement_form - Lump Sum": {
+            "GOAL_TYPE": "Lump Sum",
+            "GOAL_DESCRIPTION": "string",
+            "DETAILS_NOTES": "string"
+         },
+         "fact_find_estate_planning_goals_or_needs_form": {
+            "GOALS_OR_NEEDS": "string"
+         },
+         "fact_find_estate_planning_current_position_form": {
+            "BROAD_CONTENT": "string",
+            "GIFTS_OF_CAPITAL": "string",
+            "GIFTS_OF_TAX_YEAR": "string",
+            "REGULAR_GIFTS": "string",
+            "ANY_INHERITANCE": "string"
+         },
+         "fact_find_estate_planning_next_steps_form": {
+            "NEXT_STEPS": "string"
+         },
+         "fact_find_add_existing_mortgage_buy_to_let_regulated": {
+            "LENDER": "Nationwide BS",
+            "RATE_TYPE": "Fixed",
+            "MORTGAGE_TYPE": "Buy To Let (Regulated)",
+            "REPAYMENT_METHOD": "Capital and Interest",
+            "CAPITAL_REPAYMENT_AMOUNT": "300000",
+            "VALUE_OF_PROPERTY": "500000",
+            "MONTHLY_REPAYMENT_AMOUNT": "3000",
+            "ORIGINAL_MORTGAGE_TERM": "9",
+            "CURRENT_BALANCE": "300000",
+            "START_DATE": "01/01/2000",
+            "END_DATE": "01/01/2009"
+         },
+         "fact_find_add_mortgage_requirements_buy_to_let_regulated": {
+            "PRICE_VALUATION": "500000",
+            "DEPOSIT_EQUITY": "50000",
+            "MORTGAGE_TYPE": "Buy To Let (Regulated)"
+         },
+         "fact_find_add_existing_property_details": {
+            "ADDRESSLINE_1": "Test address 1",
+            "ADDRESSLINE_2": "Test address 2",
+            "ADDRESSLINE_3": "Test address 3",
+            "ADDRESSLINE_4": "Test address 4"
+         },
+         "second_life": {
+            "SECOND_LIFE_RELATIONSHIP": "Partner",
+            "SECOND_LIFE_FIRSTNAME": "Firstname",
+            "SECOND_LIFE_LASTNAME": "Lastname"
+         },
+         "needs_questions_setup_details": {
+            "QUESTION_TEXT": "What is your favourite colour?",
+            "PERSONAL_FF_DROPDOWN_MENU": "General",
+            "CORPORATE_FF_DROPDOWN_MENU": "General",
+            "ORDER": "1",
+            "TYPE_OF_ANSWER_DROPDOWN_MENU": "Text box"
+         },
+         "document_data": {
+            "PDF_TYPE": "Pdf",
+            "COMPLETED_STATUS": "Completed",
+            "document_category": "Test Automation Document Category",
+            "document_subcategory": "Test Automation Document Subcategory"
+         },
+         "portfolio_report_data": {
+            "pdf_name": "PortfolioReport.pdf",
+            "word_name": "PortfolioReport.docx"
+         },
+         "mi_report_data": {
+            "pdf_name": "ClientList.pdf",
+            "csv_name": "ClientList.csv",
+            "report_name": "Client List"
+         },
+         "provider_statement_data": {
+            "xls_name": "ProviderStatementTemplate.xls",
+            "csv_file_1": "ProviderStatementTemplate1.csv",
+            "csv_file_2": "ProviderStatementTemplate2.csv",
+            "import_amount": "£90,909.00",
+            "live_statement_amount": "90909.00",
+            "not_matched": "Not Matched",
+            "provider_statement_match_search": "Provider Statement Match Search",
+            "provider_statement_advanced_search": "Provider Statement Advanced Search",
+            "amount": "120.00",
+            "int_fee":"IntFee"
+         },
+         "client_search_data":{
+            "full_search":"Full Search",
+            "plan_iob_ref":"PlanIOBRef",
+            "clients_by_name":"Clients By Name"
+         },
+         "fee_search_data":{
+            "fee_search":"Fee Search",
+            "fee_iob_ref":"FeeIOFRef"
+         },
+         "lead_template_csv_data":{
+            "lead_firstname":"FirstNameLead",
+            "lead_lastname":"LastNameLead"
+         },
+         "change_plan_status_data":{
+            "deleted":"Deleted",
+            "inforce":"In force",
+            "submitted_to_provider":"Submitted to Provider",
+            "due":"Due"
+         },
+         "assureweb_quote":{
+            "PRODUCT_TYPE":"Term",
+            "AGE":"65",
+            "MIN_COVER":"200000",
+            "MAX_COVER":"30000"
+         },
+         "portfolio_report_system_based_template":{
+            "CATEGORY_NAME":"System Base Templates",
+            "TEMPLATE_NAME":"Portfolio Report System Based Template"
+         },
+         "test_automation_address_template":{
+            "CATEGORY_NAME":"System Base Templates",
+            "TEMPLATE_NAME":"Test Automation Address Template"
+         },
+         "basic_template":{
+            "CATEGORY_NAME":"Common Letter",
+            "TEMPLATE_NAME":"Automation Test Basic Template"
+         },
+         "quote_result_summary":{
+            "joint": "Y"
+         }
+      },
+      "api_data":{
+         "create_client":{
+            "prd-10":{
+               "currentAdviser":{
+                  "id":"54979"
+               },
+               "person":{
+                  "firstName":"APIFirstname",
+                  "lastName":"APILastname",
+                  "dateOfBirth":"1970-01-01"
+               }
+            },
+            "uat-10":{
+               "currentAdviser":{
+                  "id":"58547"
+               },
+               "person":{
+                  "firstName":"APIFirstname",
+                  "lastName":"APILastname",
+                  "dateOfBirth":"1970-01-01"
+               }
+            },
+            "tst-02":{
+               "currentAdviser":{
+                  "id":"37856"
+               },
+               "person":{
+                  "firstName":"APIFirstname",
+                  "lastName":"APILastname",
+                  "dateOfBirth":"1970-01-01"
+               }
+            },
+            "tst-04":{
+               "currentAdviser":{
+                  "id":"58"
+               },
+               "person":{
+                  "firstName":"APIFirstname",
+                  "lastName":"APILastname",
+                  "dateOfBirth":"1970-01-01"
+               }
+            },
+            "tst-05":{
+               "currentAdviser":{
+                  "id":"2110"
+               },
+               "person":{
+                  "firstName":"APIFirstname",
+                  "lastName":"APILastname",
+                  "dateOfBirth":"1970-01-01"
+               }
+            },
+            "tst-20":{
+               "currentAdviser":{
+                  "id":"54979"
+               },
+               "person":{
+                  "firstName":"APIFirstname",
+                  "lastName":"APILastname",
+                  "dateOfBirth":"1970-01-01"
+               }
+            }
+         },
+         "create_corporate_client":{
+            "prd-10":{
+               "currentAdviser":{
+                  "id":"54979"
+               },
+               "corporate":{
+                  "name":"APICorporateClient"
+               }
+            },
+            "uat-10":{
+               "currentAdviser":{
+                  "id":"58547"
+               },
+               "corporate":{
+                  "name":"APICorporateClient"
+               }
+            },
+            "tst-02":{
+               "currentAdviser":{
+                  "id":"37856"
+               },
+               "corporate":{
+                  "name":"APICorporateClient"
+               }
+            },
+            "tst-04":{
+               "currentAdviser":{
+                  "id":"58"
+               },
+               "corporate":{
+                  "name":"APICorporateClient"
+               }
+            },
+            "tst-05":{
+               "currentAdviser":{
+                  "id":"2110"
+               },
+               "corporate":{
+                  "name":"APICorporateClient"
+               }
+            },
+            "tst-20":{
+               "currentAdviser":{
+                  "id":"54979"
+               },
+               "corporate":{
+                  "name":"APICorporateClient"
+               }
+            }
+         },
+         "create_address":{
+            "prd-10":{
+               "type":"Home",
+               "status":"Current",
+               "isDefault": "true",
+               "address":{
+                  "line1":"99",
+                  "line2":"Wall Street",
+                  "locality":"London",
+                  "postalCode":"KT1 2BQ",
+                  "country":{
+                     "code":"GB",
+                     "name":"United Kingdom"
+                  }
+               }
+            },
+            "uat-10":{
+               "type":"Home",
+               "status":"Current",
+               "isDefault": "true",
+               "address":{
+                  "line1":"99",
+                  "line2":"Wall Street",
+                  "locality":"London",
+                  "postalCode":"KT1 2BQ",
+                  "country":{
+                     "code":"GB",
+                     "name":"United Kingdom"
+                  }
+               }
+            },
+            "tst-02":{
+               "type":"Home",
+               "status":"Current",
+               "isDefault": "true",
+               "address":{
+                  "line1":"99",
+                  "line2":"Wall Street",
+                  "locality":"London",
+                  "postalCode":"KT1 2BQ",
+                  "country":{
+                     "code":"GB"
+                  }
+               }
+            },
+            "tst-04":{
+               "type":"Home",
+               "status":"Current",
+               "isDefault": "true",
+               "address":{
+                  "line1":"99",
+                  "line2":"Wall Street",
+                  "locality":"London",
+                  "postalCode":"KT1 2BQ",
+                  "country":{
+                     "code":"GB",
+                     "name":"United Kingdom"
+                  }
+               }
+            },
+            "tst-05":{
+               "type":"Home",
+               "status":"Current",
+               "isDefault": "true",
+               "address":{
+                  "line1":"99",
+                  "line2":"Wall Street",
+                  "locality":"London",
+                  "postalCode":"KT1 2BQ",
+                  "country":{
+                     "code":"GB",
+                     "name":"United Kingdom"
+                  }
+               }
+            },
+            "tst-20":{
+               "type":"Home",
+               "status":"Current",
+               "isDefault": "true",
+               "address":{
+                  "line1":"99",
+                  "line2":"Wall Street",
+                  "locality":"London",
+                  "postalCode":"KT1 2BQ",
+                  "country":{
+                     "code":"GB",
+                     "name":"United Kingdom"
+                  }
+               }
+            }
+         },
+         "create_fee":{
+            "prd-10":{
+               "sellingAdviser":{
+                  "id":"54979"
+               },
+               "adviceCategory":"IndependentAdvice",
+               "feeType":{
+                  "name":"Client Paid - Initial Fee",
+                  "category":"InitialFee"
+               },
+               "paymentType":{
+                  "name":"Debit Card",
+                  "paidBy":"Client"
+               },
+               "feeChargingType":{
+                  "name":"FixedPrice"
+               },
+               "net":{
+                  "currency":"GBP",
+                  "amount":"100.0000"
+               }
+            },
+            "uat-10":{
+               "sellingAdviser":{
+                  "id":"58547"
+               },
+               "adviceCategory":"IndependentAdvice",
+               "feeType":{
+                  "name":"Client Paid - Initial Fee",
+                  "category":"InitialFee"
+               },
+               "paymentType":{
+                  "name":"Debit Card",
+                  "paidBy":"Client"
+               },
+               "feeChargingType":{
+                  "name":"FixedPrice"
+               },
+               "net":{
+                  "currency":"GBP",
+                  "amount":"100.0000"
+               }
+            },
+            "tst-02":{
+               "sellingAdviser":{
+                  "id":"37856"
+               },
+               "adviceCategory":"IndependentAdvice",
+               "feeType":{
+                  "name":"Client Paid - Initial Fee",
+                  "category":"InitialFee"
+               },
+               "paymentType":{
+                  "name":"Debit Card",
+                  "paidBy":"Client"
+               },
+               "feeChargingType":{
+                  "name":"FixedPrice"
+               },
+               "net":{
+                  "currency":"GBP",
+                  "amount":"100.0000"
+               }
+            },
+            "tst-04":{
+               "sellingAdviser":{
+                  "id":"58"
+               },
+               "adviceCategory":"IndependentAdvice",
+               "feeType":{
+                  "name":"Client Paid - Initial Fee",
+                  "category":"InitialFee"
+               },
+               "paymentType":{
+                  "name":"Debit Card",
+                  "paidBy":"Client"
+               },
+               "feeChargingType":{
+                  "name":"FixedPrice"
+               },
+               "net":{
+                  "currency":"GBP",
+                  "amount":"100.0000"
+               }
+            },
+            "tst-05":{
+               "sellingAdviser":{
+                  "id":"string"
+               },
+               "adviceCategory":"IndependentAdvice",
+               "feeType":{
+                  "name":"Client Paid - Initial Fee",
+                  "category":"InitialFee"
+               },
+               "paymentType":{
+                  "name":"Debit Card",
+                  "paidBy":"Client"
+               },
+               "feeChargingType":{
+                  "name":"FixedPrice"
+               },
+               "net":{
+                  "currency":"GBP",
+                  "amount":"100.0000"
+               }
+            },
+            "tst-20":{
+               "sellingAdviser":{
+                  "id":"54979"
+               },
+               "adviceCategory":"IndependentAdvice",
+               "feeType":{
+                  "name":"Client Paid - Initial Fee",
+                  "category":"InitialFee"
+               },
+               "paymentType":{
+                  "name":"Debit Card",
+                  "paidBy":"Client"
+               },
+               "feeChargingType":{
+                  "name":"FixedPrice"
+               },
+               "net":{
+                  "currency":"GBP",
+                  "amount":"100.0000"
+               }
+            }
+         },
+         "update_fee":{
+            "prd-10":{
+               "sellingAdviser":{
+                  "id":"29233"
+               },
+               "adviceCategory":"IndependentAdvice",
+               "feeType":{
+                  "name":"Client Paid - Initial Fee",
+                  "category":"InitialFee"
+               },
+               "paymentType":{
+                  "name":"Cheque",
+                  "paidBy":"Client"
+               },
+               "feeChargingType":{
+                  "name":"FixedPrice"
+               },
+               "net":{
+                  "currency":"GBP",
+                  "amount":"100.0000"
+               },
+               "status":"Deleted"
+            },
+            "uat-10":{
+               "sellingAdviser":{
+                  "id":"29233"
+               },
+               "adviceCategory":"IndependentAdvice",
+               "feeType":{
+                  "name":"Client Paid - Initial Fee",
+                  "category":"InitialFee"
+               },
+               "paymentType":{
+                  "name":"Cheque",
+                  "paidBy":"Client"
+               },
+               "feeChargingType":{
+                  "name":"FixedPrice"
+               },
+               "net":{
+                  "currency":"GBP",
+                  "amount":"100.0000"
+               },
+               "status":"Deleted"
+            },
+            "tst-02":{
+               "sellingAdviser":{
+                  "id":"37856"
+               },
+               "adviceCategory":"IndependentAdvice",
+               "feeType":{
+                  "name":"Client Paid - Initial Fee",
+                  "category":"InitialFee"
+               },
+               "paymentType":{
+                  "name":"Cheque",
+                  "paidBy":"Client"
+               },
+               "feeChargingType":{
+                  "name":"FixedPrice"
+               },
+               "net":{
+                  "currency":"GBP",
+                  "amount":"100.0000"
+               },
+               "status":"Deleted"
+            },
+            "tst-04":{
+               "sellingAdviser":{
+                  "id":"string"
+               },
+               "adviceCategory":"IndependentAdvice",
+               "feeType":{
+                  "name":"Client Paid - Initial Fee",
+                  "category":"InitialFee"
+               },
+               "paymentType":{
+                  "name":"Cheque",
+                  "paidBy":"Client"
+               },
+               "feeChargingType":{
+                  "name":"FixedPrice"
+               },
+               "net":{
+                  "currency":"GBP",
+                  "amount":"100.0000"
+               },
+               "status":"Deleted"
+            },
+            "tst-05":{
+               "sellingAdviser":{
+                  "id":"string"
+               },
+               "adviceCategory":"IndependentAdvice",
+               "feeType":{
+                  "name":"Client Paid - Initial Fee",
+                  "category":"InitialFee"
+               },
+               "paymentType":{
+                  "name":"Cheque",
+                  "paidBy":"Client"
+               },
+               "feeChargingType":{
+                  "name":"FixedPrice"
+               },
+               "net":{
+                  "currency":"GBP",
+                  "amount":"100.0000"
+               },
+               "status":"Deleted"
+            },
+            "tst-20":{
+               "sellingAdviser":{
+                  "id":"29233"
+               },
+               "adviceCategory":"IndependentAdvice",
+               "feeType":{
+                  "name":"Client Paid - Initial Fee",
+                  "category":"InitialFee"
+               },
+               "paymentType":{
+                  "name":"Cheque",
+                  "paidBy":"Client"
+               },
+               "feeChargingType":{
+                  "name":"FixedPrice"
+               },
+               "net":{
+                  "currency":"GBP",
+                  "amount":"100.0000"
+               },
+               "status":"Deleted"
+            }
+         },
+         "create_lead":{
+            "prd-10":{
+               "currentAdviser":{
+                  "id":"54979"
+               },
+               "person":{
+                  "firstName":"APIFirstname",
+                  "lastName":"APILastname",
+                  "dateOfBirth":"1970-01-01"
+               }
+            },
+            "uat-10":{
+               "currentAdviser":{
+                  "id":"58547"
+               },
+               "person":{
+                  "firstName":"APIFirstname",
+                  "lastName":"APILastname",
+                  "dateOfBirth":"1970-01-01"
+               }
+            },
+            "tst-02":{
+               "currentAdviser":{
+                  "id":"37856"
+               },
+               "person":{
+                  "firstName":"APIFirstname",
+                  "lastName":"APILastname",
+                  "dateOfBirth":"1970-01-01"
+               }
+            },
+            "tst-04":{
+               "currentAdviser":{
+                  "id":"58"
+               },
+               "person":{
+                  "firstName":"APIFirstname",
+                  "lastName":"APILastname",
+                  "dateOfBirth":"1970-01-01"
+               }
+            },
+            "tst-05":{
+               "currentAdviser":{
+                  "id":"2110"
+               },
+               "person":{
+                  "firstName":"APIFirstname",
+                  "lastName":"APILastname",
+                  "dateOfBirth":"1970-01-01"
+               }
+            },
+            "tst-20":{
+               "currentAdviser":{
+                  "id":"54979"
+               },
+               "person":{
+                  "firstName":"APIFirstname",
+                  "lastName":"APILastname",
+                  "dateOfBirth":"1970-01-01"
+               }
+            }
+         },
+         "create_relationships":{
+            "prd-10":{
+               "relationshipType":{
+                  "name":"Spouse"
+               },
+               "subject":{
+                  "id":"",
+                  "type":"Client"
+               },
+               "relation":{
+                  "id":"25057777",
+                  "type":"Client"
+               }
+            },
+            "uat-10":{
+               "relationshipType":{
+                  "name":"Spouse"
+               },
+               "subject":{
+                  "id":"",
+                  "type":"Client"
+               },
+               "relation":{
+                  "id":"22398743",
+                  "type":"Client"
+               }
+            },
+            "tst-02":{
+               "relationshipType":{
+                  "name":"Spouse"
+               },
+               "subject":{
+                  "id":"",
+                  "type":"Client"
+               },
+               "relation":{
+                  "id":"7597407",
+                  "type":"Client"
+               }
+            },
+            "tst-04":{
+               "relationshipType":{
+                  "name":"Spouse"
+               },
+               "subject":{
+                  "id":"",
+                  "type":"Client"
+               },
+               "relation":{
+                  "id":"6197156",
+                  "type":"Client"
+               }
+            },
+            "tst-05":{
+               "relationshipType":{
+                  "name":"Spouse"
+               },
+               "subject":{
+                  "id":"",
+                  "type":"Client"
+               },
+               "relation":{
+                  "id":"6045769",
+                  "type":"Client"
+               }
+            },
+            "tst-20":{
+               "relationshipType":{
+                  "name":"Spouse"
+               },
+               "subject":{
+                  "id":"",
+                  "type":"Client"
+               },
+               "relation":{
+                  "id":"25057777",
+                  "type":"Client"
+               }
+            }
+         },
+         "create_plan":{
+            "prd-10":{
+               "planType":{
+                  "name":{
+                     "mortgage":"Mortgage (Buy To Let)",
+                     "protection":"Term Protection",
+                     "pension":"Group Personal Pension",
+                     "investment":"ISA (Stocks And Shares)"
+                  }
+               },
+               "productProvider":{
+                  "id":"558"
+               },
+               "sellingAdviser":{
+                  "id":"54979"
+               },
+               "owners":[
+                  {
+                     "id":0
+                  }
+               ],
+               "Lifecycle":{
+                  "id":{
+                     "mortgage":54550,
+                     "protection":54549,
+                     "pension":54551,
+                     "investment":54548,
+                     "is_pre_existing":54547
+                  }
+               }
+            },
+            "uat-10":{
+               "planType":{
+                  "name":{
+                     "mortgage":"Mortgage (Buy To Let)",
+                     "protection":"Term Protection",
+                     "pension":"Group Personal Pension",
+                     "investment":"ISA (Stocks And Shares)"
+                  }
+               },
+               "productProvider":{
+                  "id":"558"
+               },
+               "sellingAdviser":{
+                  "id":"58533"
+               },
+               "owners":[
+                  {
+                     "id":0
+                  }
+               ],
+               "Lifecycle":{
+                  "id":{
+                     "mortgage":34507,
+                     "protection":34506,
+                     "pension":34508,
+                     "investment":34505,
+                     "is_pre_existing":34504
+                  }
+               }
+            },
+            "tst-02":{
+               "planType":{
+                  "name":{
+                     "mortgage":"Mortgage (Buy To Let)",
+                     "protection":"Term Protection",
+                     "pension":"Group Personal Pension",
+                     "investment":"ISA (Stocks And Shares)"
+                  }
+               },
+               "productProvider":{
+                  "id":"558"
+               },
+               "sellingAdviser":{
+                  "id":"37856"
+               },
+               "owners":[
+                  {
+                     "id":0
+                  }
+               ],
+               "Lifecycle":{
+                  "id":{
+                     "mortgage":10302,
+                     "protection":10301,
+                     "pension":10303,
+                     "investment":10300,
+                     "is_pre_existing":10299
+                  }
+               }
+            },
+            "tst-04":{
+               "planType":{
+                  "name":{
+                     "mortgage":"Mortgage (Buy To Let)",
+                     "protection":"Term Protection",
+                     "pension":"Group Personal Pension",
+                     "investment":"ISA (Stocks And Shares)"
+                  }
+               },
+               "productProvider":{
+                  "id":"558"
+               },
+               "sellingAdviser":{
+                  "id":"58"
+               },
+               "owners":[
+                  {
+                     "id":0
+                  }
+               ],
+               "Lifecycle":{
+                  "id":{
+                     "mortgage":10153,
+                     "protection":10152,
+                     "pension":10154,
+                     "investment":10151,
+                     "is_pre_existing":10150
+                  }
+               }
+            },
+            "tst-05":{
+               "planType":{
+                  "name":{
+                     "mortgage":"Mortgage (Buy To Let)",
+                     "protection":"Term Protection",
+                     "pension":"Group Personal Pension",
+                     "investment":"ISA (Stocks And Shares)"
+                  }
+               },
+               "productProvider":{
+                  "id":"2522"
+               },
+               "sellingAdviser":{
+                  "id":"2110"
+               },
+               "owners":[
+                  {
+                     "id":0
+                  }
+               ],
+               "Lifecycle":{
+                  "id":{
+                     "mortgage":10155,
+                     "protection":10152,
+                     "pension":10154,
+                     "investment":10153,
+                     "is_pre_existing":10152
+                  }
+               }
+            },
+            "tst-20":{
+               "planType":{
+                  "name":{
+                     "mortgage":"Mortgage (Buy To Let)",
+                     "protection":"Term Protection",
+                     "pension":"Group Personal Pension",
+                     "investment":"ISA (Stocks And Shares)"
+                  }
+               },
+               "productProvider":{
+                  "id":"558"
+               },
+               "sellingAdviser":{
+                  "id":"54979"
+               },
+               "owners":[
+                  {
+                     "id":0
+                  }
+               ],
+               "Lifecycle":{
+                  "id":{
+                     "mortgage":54550,
+                     "protection":54549,
+                     "pension":54551,
+                     "investment":54548,
+                     "is_pre_existing":54547
+                  }
+               }
+            }
+         },
+         "change_plan_status":{
+            "prd-10":{
+               "status":"string"
+            },
+            "uat-10":{
+               "status":"string"
+            },
+            "tst-02":{
+               "status":"string"
+            },
+            "tst-04":{
+               "status":"string"
+            },
+            "tst-05":{
+               "status":"string"
+            },
+            "tst-20":{
+               "status":"string"
+            }
+         },
+         "change_workflow_status":{
+            "prd-10":{
+               "status":"string"
+            },
+            "uat-10":{
+               "status":"string"
+            },
+            "tst-02":{
+               "status":"string"
+            },
+            "tst-04":{
+               "status":"string"
+            },
+            "tst-05":{
+               "status":"string"
+            },
+            "tst-20":{
+               "status":"string"
+            }
+         },
+         "create_workflow_category":{
+            "prd-10":{
+               "name":"Test Automation Category "
+            },
+            "uat-10":{
+               "name":"Test Automation Category "
+            },
+            "tst-02":{
+               "name":"Test Automation Category "
+            },
+            "tst-04":{
+               "name":"Test Automation Category "
+            },
+            "tst-05":{
+               "name":"Test Automation Category "
+            },
+            "tst-20":{
+               "name":"Test Automation Category "
+            }
+         },
+         "create_contribution":{
+            "prd-10":{
+               "contributionType":"LumpSum",
+               "value":{
+                  "amount":"10000.00"
+               },
+               "frequency":"Single",
+               "contributorType":"Self",
+               "startsOn":""
+            },
+            "uat-10":{
+               "contributionType":"LumpSum",
+               "value":{
+                  "amount":"10000.00"
+               },
+               "frequency":"Single",
+               "contributorType":"Self",
+               "startsOn":""
+            },
+            "tst-02":{
+               "contributionType":"LumpSum",
+               "value":{
+                  "amount":"10000.00"
+               },
+               "frequency":"Single",
+               "contributorType":"Self",
+               "startsOn":""
+            },
+            "tst-04":{
+               "contributionType":"LumpSum",
+               "value":{
+                  "amount":"10000.00"
+               },
+               "frequency":"Single",
+               "contributorType":"Self",
+               "startsOn":""
+            },
+            "tst-05":{
+               "contributionType":"LumpSum",
+               "value":{
+                  "amount":"10000.00"
+               },
+               "frequency":"Single",
+               "contributorType":"Self",
+               "startsOn":""
+            },
+            "tst-20":{
+               "contributionType":"LumpSum",
+               "value":{
+                  "amount":"10000.00"
+               },
+               "frequency":"Single",
+               "contributorType":"Self",
+               "startsOn":""
+            }
+         },
+         "create_withdrawal":{
+            "prd-10":{
+               "withdrawalType":"LumpSum",
+               "value":{
+                  "amount":"2000.00"
+               },
+               "frequency":"Single",
+               "startsOn":""
+            },
+            "uat-10":{
+               "withdrawalType":"LumpSum",
+               "value":{
+                  "amount":"2000.00"
+               },
+               "frequency":"Single",
+               "startsOn":""
+            },
+            "tst-02":{
+               "withdrawalType":"LumpSum",
+               "value":{
+                  "amount":"2000.00"
+               },
+               "frequency":"Single",
+               "startsOn":""
+            },
+            "tst-04":{
+               "withdrawalType":"LumpSum",
+               "value":{
+                  "amount":"2000.00"
+               },
+               "frequency":"Single",
+               "startsOn":""
+            },
+            "tst-05":{
+               "withdrawalType":"LumpSum",
+               "value":{
+                  "amount":"2000.00"
+               },
+               "frequency":"Single",
+               "startsOn":""
+            },
+            "tst-20":{
+               "withdrawalType":"LumpSum",
+               "value":{
+                  "amount":"2000.00"
+               },
+               "frequency":"Single",
+               "startsOn":""
+            }
+         },
+         "create_valuation":{
+            "prd-10":{
+               "value":{
+                  "amount":"40,000.00"
+               },
+               "type":"Manual"
+            },
+            "uat-10":{
+               "value":{
+                  "amount":"40,000.00"
+               },
+               "type":"Manual"
+            },
+            "tst-02":{
+               "value":{
+                  "amount":"40,000.00"
+               },
+               "type":"Manual"
+            },
+            "tst-04":{
+               "value":{
+                  "amount":"40,000.00"
+               },
+               "type":"Manual"
+            },
+            "tst-05":{
+               "value":{
+                  "amount":"40,000.00"
+               },
+               "type":"Manual"
+            },
+            "tst-20":{
+               "value":{
+                  "amount":"40,000.00"
+               },
+               "type":"Manual"
+            }
+         },
+         "create_fund":{
+            "prd-10":{
+               "fund":{
+                  "codes":{
+                     "isin":"GB00BYZX5401"
+                  }
+               },
+               "units":{
+                  "number":60,
+                  "numberUpdatedOn":"",
+                  "priceUpdatedOn":"",
+                  "price":{
+                     "amount":"1.2408"
+                  }
+               }
+            },
+            "uat-10":{
+               "fund":{
+                  "codes":{
+                     "isin":"GB00BYZX5401"
+                  }
+               },
+               "units":{
+                  "number":60,
+                  "numberUpdatedOn":"",
+                  "priceUpdatedOn":"",
+                  "price":{
+                     "amount":"1.2408"
+                  }
+               }
+            },
+            "tst-02":{
+               "fund":{
+                  "codes":{
+                     "isin":"GB00BYZX5401"
+                  }
+               },
+               "units":{
+                  "number":60,
+                  "numberUpdatedOn":"",
+                  "priceUpdatedOn":"",
+                  "price":{
+                     "amount":"1.2408"
+                  }
+               }
+            },
+            "tst-04":{
+               "fund":{
+                  "codes":{
+                     "isin":"GB00BYZX5401"
+                  }
+               },
+               "units":{
+                  "number":60,
+                  "numberUpdatedOn":"",
+                  "priceUpdatedOn":"",
+                  "price":{
+                     "amount":"1.2408"
+                  }
+               }
+            },
+            "tst-05":{
+               "fund":{
+                  "codes":{
+                     "isin":"GB00BYZX5401"
+                  }
+               },
+               "units":{
+                  "number":60,
+                  "numberUpdatedOn":"",
+                  "priceUpdatedOn":"",
+                  "price":{
+                     "amount":"1.2408"
+                  }
+               }
+            },
+            "tst-20":{
+               "fund":{
+                  "codes":{
+                     "isin":"GB00BYZX5401"
+                  }
+               },
+               "units":{
+                  "number":60,
+                  "numberUpdatedOn":"",
+                  "priceUpdatedOn":"",
+                  "price":{
+                     "amount":"1.2408"
+                  }
+               }
+            }
+         },
+         "create_document":{
+            "prd-10":{
+               "title":"Test Automation Document.pdf"
+            },
+            "uat-10":{
+               "title":"Test Automation Document.pdf"
+            },
+            "tst-02":{
+               "title":"Test Automation Document.pdf"
+            },
+            "tst-04":{
+               "title":"Test Automation Document.pdf"
+            },
+            "tst-05":{
+               "title":"Test Automation Document.pdf"
+            },
+            "tst-20":{
+               "title":"Test Automation Document.pdf"
+            }
+         },
+         "create_quote":{
+            "prd-10":{
+               "status":"Submitted",
+               "productGroup":"Investment",
+               "customReference":"Quote Reference 123"
+            },
+            "uat-10":{
+               "status":"Submitted",
+               "productGroup":"Investment",
+               "customReference":"Quote Reference 123"
+            },
+            "tst-02":{
+               "status":"Submitted",
+               "productGroup":"Investment",
+               "customReference":"Quote Reference 123"
+            },
+            "tst-04":{
+               "status":"Submitted",
+               "productGroup":"Investment",
+               "customReference":"Quote Reference 123"
+            },
+            "tst-05":{
+               "status":"Submitted",
+               "productGroup":"Investment",
+               "customReference":"Quote Reference 123"
+            },
+            "tst-20":{
+               "status":"Submitted",
+               "productGroup":"Investment",
+               "customReference":"Quote Reference 123"
+            }
+         },
+         "create_quote_document":{
+            "prd-10":{
+               "title":"Test Automation Quote Document",
+               "description":"Test Automation Quote Document",
+               "properties":{
+                  "_fileType.name":"Client Illustration",
+                  "_subCategory.name":"Quote",
+                  "_category.name":"Automation"
+               },
+               "object":{
+                  "original_filename":"Test Automation Quote Document.pdf"
+               },
+               "linked_entities":[
+                  {
+                     "id":111,
+                     "type":"Quote"
+                  }
+               ]
+            },
+            "uat-10":{
+               "title":"Test Automation Quote Document",
+               "description":"Test Automation Quote Document",
+               "properties":{
+                  "_fileType.name":"Client Illustration",
+                  "_subCategory.name":"Quote",
+                  "_category.name":"Automation"
+               },
+               "object":{
+                  "original_filename":"Test Automation Quote Document.pdf"
+               },
+               "linked_entities":[
+                  {
+                     "id":111,
+                     "type":"Quote"
+                  }
+               ]
+            },
+            "tst-02":{
+               "title":"Test Automation Quote Document",
+               "description":"Test Automation Quote Document",
+               "properties":{
+                  "_fileType.name":"Client Illustration",
+                  "_subCategory.name":"Quote",
+                  "_category.name":"Automation"
+               },
+               "object":{
+                  "original_filename":"Test Automation Quote Document.pdf"
+               },
+               "linked_entities":[
+                  {
+                     "id":111,
+                     "type":"Quote"
+                  }
+               ]
+            },
+            "tst-04":{
+               "title":"Test Automation Quote Document",
+               "description":"Test Automation Quote Document",
+               "properties":{
+                  "_fileType.name":"Client Illustration",
+                  "_subCategory.name":"Quote",
+                  "_category.name":"Automation"
+               },
+               "object":{
+                  "original_filename":"Test Automation Quote Document.pdf"
+               },
+               "linked_entities":[
+                  {
+                     "id":111,
+                     "type":"Quote"
+                  }
+               ]
+            },
+            "tst-05":{
+               "title":"Test Automation Quote Document",
+               "description":"Test Automation Quote Document",
+               "properties":{
+                  "_fileType.name":"Client Illustration",
+                  "_subCategory.name":"Quote",
+                  "_category.name":"Automation"
+               },
+               "object":{
+                  "original_filename":"Test Automation Quote Document.pdf"
+               },
+               "linked_entities":[
+                  {
+                     "id":111,
+                     "type":"Quote"
+                  }
+               ]
+            },
+            "tst-20":{
+               "title":"Test Automation Quote Document",
+               "description":"Test Automation Quote Document",
+               "properties":{
+                  "_fileType.name":"Client Illustration",
+                  "_subCategory.name":"Quote",
+                  "_category.name":"Automation"
+               },
+               "object":{
+                  "original_filename":"Test Automation Quote Document.pdf"
+               },
+               "linked_entities":[
+                  {
+                     "id":111,
+                     "type":"Quote"
+                  }
+               ]
+            }
+         },
+         "create_quote_result":{
+            "prd-10":{
+               "contributions":[
+                  {
+                     "startsOn":"2000-01-01",
+                     "value":{
+                        "currency":"GBP",
+                        "amount":"1000.00"
+                     },
+                     "frequency":"Single",
+                     "type":"LumpSum"
+                  },
+                  {
+                     "startsOn":"2000-01-01",
+                     "value":{
+                        "currency":"GBP",
+                        "amount":"2000.00"
+                     },
+                     "frequency":"Single",
+                     "type":"Regular"
+                  },
+                  {
+                     "startsOn":"2000-01-01",
+                     "value":{
+                        "currency":"GBP",
+                        "amount":"3000.00"
+                     },
+                     "frequency":"Single",
+                     "type":"Transfer"
+                  }
+               ],
+               "discriminator":"NewBusinessInvestmentQuoteResult",
+               "provider":{
+                  "id":"199"
+               },
+               "planType":{
+                  "name":"ISA (Stocks And Shares)"
+               },
+               "applicants":[
+                  {
+                     "id":"0000000"
+                  }
+               ]
+            },
+            "uat-10":{
+               "contributions":[
+                  {
+                     "startsOn":"2000-01-01",
+                     "value":{
+                        "currency":"GBP",
+                        "amount":"1000.00"
+                     },
+                     "frequency":"Single",
+                     "type":"LumpSum"
+                  },
+                  {
+                     "startsOn":"2000-01-01",
+                     "value":{
+                        "currency":"GBP",
+                        "amount":"2000.00"
+                     },
+                     "frequency":"Single",
+                     "type":"Regular"
+                  },
+                  {
+                     "startsOn":"2000-01-01",
+                     "value":{
+                        "currency":"GBP",
+                        "amount":"3000.00"
+                     },
+                     "frequency":"Single",
+                     "type":"Transfer"
+                  }
+               ],
+               "discriminator":"NewBusinessInvestmentQuoteResult",
+               "provider":{
+                  "id":"199"
+               },
+               "planType":{
+                  "name":"ISA (Stocks And Shares)"
+               },
+               "applicants":[
+                  {
+                     "id":"0000000"
+                  }
+               ]
+            },
+            "tst-02":{
+               "contributions":[
+                  {
+                     "startsOn":"2000-01-01",
+                     "value":{
+                        "currency":"GBP",
+                        "amount":"1000.00"
+                     },
+                     "frequency":"Single",
+                     "type":"LumpSum"
+                  },
+                  {
+                     "startsOn":"2000-01-01",
+                     "value":{
+                        "currency":"GBP",
+                        "amount":"2000.00"
+                     },
+                     "frequency":"Single",
+                     "type":"Regular"
+                  },
+                  {
+                     "startsOn":"2000-01-01",
+                     "value":{
+                        "currency":"GBP",
+                        "amount":"3000.00"
+                     },
+                     "frequency":"Single",
+                     "type":"Transfer"
+                  }
+               ],
+               "discriminator":"NewBusinessInvestmentQuoteResult",
+               "provider":{
+                  "id":"199"
+               },
+               "planType":{
+                  "name":"ISA (Stocks And Shares)"
+               },
+               "applicants":[
+                  {
+                     "id":"0000000"
+                  }
+               ]
+            },
+            "tst-04":{
+               "contributions":[
+                  {
+                     "startsOn":"2000-01-01",
+                     "value":{
+                        "currency":"GBP",
+                        "amount":"1000.00"
+                     },
+                     "frequency":"Single",
+                     "type":"LumpSum"
+                  },
+                  {
+                     "startsOn":"2000-01-01",
+                     "value":{
+                        "currency":"GBP",
+                        "amount":"2000.00"
+                     },
+                     "frequency":"Single",
+                     "type":"Regular"
+                  },
+                  {
+                     "startsOn":"2000-01-01",
+                     "value":{
+                        "currency":"GBP",
+                        "amount":"3000.00"
+                     },
+                     "frequency":"Single",
+                     "type":"Transfer"
+                  }
+               ],
+               "discriminator":"NewBusinessInvestmentQuoteResult",
+               "provider":{
+                  "id":"199"
+               },
+               "planType":{
+                  "name":"ISA (Stocks And Shares)"
+               },
+               "applicants":[
+                  {
+                     "id":"0000000"
+                  }
+               ]
+            },
+            "tst-05":{
+               "contributions":[
+                  {
+                     "startsOn":"2000-01-01",
+                     "value":{
+                        "currency":"GBP",
+                        "amount":"1000.00"
+                     },
+                     "frequency":"Single",
+                     "type":"LumpSum"
+                  },
+                  {
+                     "startsOn":"2000-01-01",
+                     "value":{
+                        "currency":"GBP",
+                        "amount":"2000.00"
+                     },
+                     "frequency":"Single",
+                     "type":"Regular"
+                  },
+                  {
+                     "startsOn":"2000-01-01",
+                     "value":{
+                        "currency":"GBP",
+                        "amount":"3000.00"
+                     },
+                     "frequency":"Single",
+                     "type":"Transfer"
+                  }
+               ],
+               "discriminator":"NewBusinessInvestmentQuoteResult",
+               "provider":{
+                  "id":"199"
+               },
+               "planType":{
+                  "name":"ISA (Stocks And Shares)"
+               },
+               "applicants":[
+                  {
+                     "id":"0000000"
+                  }
+               ]
+            },
+            "tst-20":{
+               "contributions":[
+                  {
+                     "startsOn":"2000-01-01",
+                     "value":{
+                        "currency":"GBP",
+                        "amount":"1000.00"
+                     },
+                     "frequency":"Single",
+                     "type":"LumpSum"
+                  },
+                  {
+                     "startsOn":"2000-01-01",
+                     "value":{
+                        "currency":"GBP",
+                        "amount":"2000.00"
+                     },
+                     "frequency":"Single",
+                     "type":"Regular"
+                  },
+                  {
+                     "startsOn":"2000-01-01",
+                     "value":{
+                        "currency":"GBP",
+                        "amount":"3000.00"
+                     },
+                     "frequency":"Single",
+                     "type":"Transfer"
+                  }
+               ],
+               "discriminator":"NewBusinessInvestmentQuoteResult",
+               "provider":{
+                  "id":"199"
+               },
+               "planType":{
+                  "name":"ISA (Stocks And Shares)"
+               },
+               "applicants":[
+                  {
+                     "id":"0000000"
+                  }
+               ]
+            }
+         },
+         "create_quote_result_document":{
+            "prd-10":{
+               "title":"Test Automation Quote Result Document",
+               "description":"Test Automation Quote Result Document",
+               "properties":{
+                  "_fileType.name":"Client Illustration",
+                  "_subCategory.name":"Quote Result",
+                  "_category.name":"Automation"
+               },
+               "object":{
+                  "original_filename":"Test Automation Quote Result Document.pdf"
+               },
+               "linked_entities":[
+                  {
+                     "id":111,
+                     "type":"QuoteResult"
+                  }
+               ]
+            },
+            "uat-10":{
+               "title":"Test Automation Quote Result Document",
+               "description":"Test Automation Quote Result Document",
+               "properties":{
+                  "_fileType.name":"Client Illustration",
+                  "_subCategory.name":"Quote Result",
+                  "_category.name":"Automation"
+               },
+               "object":{
+                  "original_filename":"Test Automation Quote Result Document.pdf"
+               },
+               "linked_entities":[
+                  {
+                     "id":111,
+                     "type":"QuoteResult"
+                  }
+               ]
+            },
+            "tst-02":{
+               "title":"Test Automation Quote Result Document",
+               "description":"Test Automation Quote Result Document",
+               "properties":{
+                  "_fileType.name":"Client Illustration",
+                  "_subCategory.name":"Quote Result",
+                  "_category.name":"Automation"
+               },
+               "object":{
+                  "original_filename":"Test Automation Quote Result Document.pdf"
+               },
+               "linked_entities":[
+                  {
+                     "id":111,
+                     "type":"QuoteResult"
+                  }
+               ]
+            },
+            "tst-04":{
+               "title":"Test Automation Quote Result Document",
+               "description":"Test Automation Quote Result Document",
+               "properties":{
+                  "_fileType.name":"Client Illustration",
+                  "_subCategory.name":"Quote Result",
+                  "_category.name":"Automation"
+               },
+               "object":{
+                  "original_filename":"Test Automation Quote Result Document.pdf"
+               },
+               "linked_entities":[
+                  {
+                     "id":111,
+                     "type":"QuoteResult"
+                  }
+               ]
+            },
+            "tst-05":{
+               "title":"Test Automation Quote Result Document",
+               "description":"Test Automation Quote Result Document",
+               "properties":{
+                  "_fileType.name":"Client Illustration",
+                  "_subCategory.name":"Quote Result",
+                  "_category.name":"Automation"
+               },
+               "object":{
+                  "original_filename":"Test Automation Quote Result Document.pdf"
+               },
+               "linked_entities":[
+                  {
+                     "id":111,
+                     "type":"QuoteResult"
+                  }
+               ]
+            },
+            "tst-20":{
+               "title":"Test Automation Quote Result Document",
+               "description":"Test Automation Quote Result Document",
+               "properties":{
+                  "_fileType.name":"Client Illustration",
+                  "_subCategory.name":"Quote Result",
+                  "_category.name":"Automation"
+               },
+               "object":{
+                  "original_filename":"Test Automation Quote Result Document.pdf"
+               },
+               "linked_entities":[
+                  {
+                     "id":111,
+                     "type":"QuoteResult"
+                  }
+               ]
+            }
+         },
+         "create_secure_message":{
+            "prd-10":{
+               "subject":""
+            },
+            "uat-10":{
+               "subject":""
+            },
+            "tst-02":{
+               "subject":""
+            },
+            "tst-04":{
+               "subject":""
+            },
+            "tst-05":{
+               "subject":""
+            },
+            "tst-20":{
+               "subject":""
+            }
+         },
+         "search_client":{
+            "prd-10":{
+               "top":1,
+               "filters":[
+                  {
+                     "op":"eq",
+                     "field":"personLastName",
+                     "value":""
+                  }
+               ]
+            },
+            "uat-10":{
+               "top":1,
+               "filters":[
+                  {
+                     "op":"eq",
+                     "field":"personLastName",
+                     "value":""
+                  }
+               ]
+            },
+            "tst-02":{
+               "top":1,
+               "filters":[
+                  {
+                     "op":"eq",
+                     "field":"personLastName",
+                     "value":""
+                  }
+               ]
+            },
+            "tst-04":{
+               "top":1,
+               "filters":[
+                  {
+                     "op":"eq",
+                     "field":"personLastName",
+                     "value":""
+                  }
+               ]
+            },
+            "tst-05":{
+               "top":1,
+               "filters":[
+                  {
+                     "op":"eq",
+                     "field":"personLastName",
+                     "value":""
+                  }
+               ]
+            },
+            "tst-20":{
+               "top":1,
+               "filters":[
+                  {
+                     "op":"eq",
+                     "field":"personLastName",
+                     "value":""
+                  }
+               ]
+            }
+         },
+         "create_goal":{
+            "prd-10":{
+               "category": "Other",
+               "goalType": "GrowthWithTarget",
+               "name": "Automation Test Goal",
+               "targetAmount": {
+                  "currencyCode": "GBP",
+                  "amount": "10000.0000"
+               },
+               "productArea": "Investment",
+               "isShownInFactFind": "true",
+               "startDate": "",
+               "targetDate": "",
+               "isCreatedByClient": "false"
+            },
+            "uat-10":{
+               "category": "Other",
+               "goalType": "GrowthWithTarget",
+               "name": "Automation Test Goal",
+               "targetAmount": {
+                  "currencyCode": "GBP",
+                  "amount": "10000.0000"
+               },
+               "productArea": "Investment",
+               "isShownInFactFind": "true",
+               "startDate": "",
+               "targetDate": "",
+               "isCreatedByClient": "false"
+            },
+            "tst-02":{
+               "category": "Other",
+               "goalType": "GrowthWithTarget",
+               "name": "Automation Test Goal",
+               "targetAmount": {
+                  "currencyCode": "GBP",
+                  "amount": "10000.0000"
+               },
+               "productArea": "Investment",
+               "isShownInFactFind": "true",
+               "startDate": "",
+               "targetDate": "",
+               "isCreatedByClient": "false"
+            },
+            "tst-04":{
+               "category": "Other",
+               "goalType": "GrowthWithTarget",
+               "name": "Automation Test Goal",
+               "targetAmount": {
+                  "currencyCode": "GBP",
+                  "amount": "10000.0000"
+               },
+               "productArea": "Investment",
+               "isShownInFactFind": "true",
+               "startDate": "",
+               "targetDate": "",
+               "isCreatedByClient": "false"
+            },
+            "tst-05":{
+               "category": "Other",
+               "goalType": "GrowthWithTarget",
+               "name": "Automation Test Goal",
+               "targetAmount": {
+                  "currencyCode": "GBP",
+                  "amount": "10000.0000"
+               },
+               "productArea": "Investment",
+               "isShownInFactFind": "true",
+               "startDate": "",
+               "targetDate": "",
+               "isCreatedByClient": "false"
+            },
+            "tst-20":{
+               "category": "Other",
+               "goalType": "GrowthWithTarget",
+               "name": "Automation Test Goal",
+               "targetAmount": {
+                  "currencyCode": "GBP",
+                  "amount": "10000.0000"
+               },
+               "productArea": "Investment",
+               "isShownInFactFind": "true",
+               "startDate": "",
+               "targetDate": "",
+               "isCreatedByClient": "false"
+            }
+         },
+         "create_basic_imps_model":{
+            "prd-10":{
+               "code": "Auto-Test Rebalance",
+               "name": "Automation Test iMPS Model",
+               "description": "Automation Test iMPS Model",
+               "funds": [
+               {
+                   "name": "Invesco Asia Trust plc",
+                   "allocation": 30,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "isin",
+                   "code": "GB0004535307"
+               },
+               {
+                   "name": "Invesco Managed Income (UK) Inc",
+                   "allocation": 10,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "sedol",
+                   "code": "3305230"
+               },
+               {
+                   "name": "Investec As Pac Franchise B Acc GBP",
+                   "allocation": 20,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "isin",
+                   "code": "GB00B01NHW84"
+               },
+               {
+                   "name": "Invesco High Yield (UK) NT Inc",
+                   "allocation": 20,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "mex",
+                   "code": "BRINPE"
+               },
+               {
+                   "name": "Invesco Fixed Int Pn 8",
+                   "allocation": 20,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "isin",
+                   "code": "GB00B4WY9Y43"
+               }
+           ],
+               "atrs": [
+               {
+                   "code": "TKG-02-T30",
+                   "description": "Automation Test"
+               }
+               ]
+         },
+            "uat-10":{
+               "code": "Auto-Test Rebalance",
+               "name": "Automation Test iMPS Model",
+               "description": "Automation Test iMPS Model",
+               "funds": [
+               {
+                   "name": "Invesco Asia Trust plc",
+                   "allocation": 30,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "isin",
+                   "code": "GB0004535307"
+               },
+               {
+                   "name": "Invesco Managed Income (UK) Inc",
+                   "allocation": 10,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "sedol",
+                   "code": "3305230"
+               },
+               {
+                   "name": "Investec As Pac Franchise B Acc GBP",
+                   "allocation": 20,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "isin",
+                   "code": "GB00B01NHW84"
+               },
+               {
+                   "name": "Invesco High Yield (UK) NT Inc",
+                   "allocation": 20,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "mex",
+                   "code": "BRINPE"
+               },
+               {
+                   "name": "Invesco Fixed Int Pn 8",
+                   "allocation": 20,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "isin",
+                   "code": "GB00B4WY9Y43"
+               }
+           ],
+               "atrs": [
+               {
+                   "code": "TKG-02-T30",
+                   "description": "Automation Test"
+               }
+               ]
+         },
+            "tst-02":{
+               "code": "Auto-Test Rebalance",
+               "name": "Automation Test iMPS Model",
+               "description": "Automation Test iMPS Model",
+               "funds": [
+               {
+                   "name": "Invesco Asia Trust plc",
+                   "allocation": 30,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "isin",
+                   "code": "GB0004535307"
+               },
+               {
+                   "name": "Invesco Managed Income (UK) Inc",
+                   "allocation": 10,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "sedol",
+                   "code": "3305230"
+               },
+               {
+                   "name": "Investec As Pac Franchise B Acc GBP",
+                   "allocation": 20,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "isin",
+                   "code": "GB00B01NHW84"
+               },
+               {
+                   "name": "Invesco High Yield (UK) NT Inc",
+                   "allocation": 20,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "mex",
+                   "code": "BRINPE"
+               },
+               {
+                   "name": "Invesco Fixed Int Pn 8",
+                   "allocation": 20,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "isin",
+                   "code": "GB00B4WY9Y43"
+               }
+           ],
+               "atrs": [
+               {
+                   "code": "TKG-02-T30",
+                   "description": "Automation Test"
+               }
+               ]
+         },
+            "tst-04":{
+               "code": "Auto-Test Rebalance",
+               "name": "Automation Test iMPS Model",
+               "description": "Automation Test iMPS Model",
+               "funds": [
+               {
+                   "name": "Invesco Asia Trust plc",
+                   "allocation": 30,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "isin",
+                   "code": "GB0004535307"
+               },
+               {
+                   "name": "Invesco Managed Income (UK) Inc",
+                   "allocation": 10,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "sedol",
+                   "code": "3305230"
+               },
+               {
+                   "name": "Investec As Pac Franchise B Acc GBP",
+                   "allocation": 20,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "isin",
+                   "code": "GB00B01NHW84"
+               },
+               {
+                   "name": "Invesco High Yield (UK) NT Inc",
+                   "allocation": 20,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "mex",
+                   "code": "BRINPE"
+               },
+               {
+                   "name": "Invesco Fixed Int Pn 8",
+                   "allocation": 20,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "isin",
+                   "code": "GB00B4WY9Y43"
+               }
+           ],
+               "atrs": [
+               {
+                   "code": "TKG-02-T30",
+                   "description": "Automation Test"
+               }
+               ]
+         },
+            "tst-05":{
+               "code": "Auto-Test Rebalance",
+               "name": "Automation Test iMPS Model",
+               "description": "Automation Test iMPS Model",
+               "funds": [
+               {
+                   "name": "Invesco Asia Trust plc",
+                   "allocation": 30,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "isin",
+                   "code": "GB0004535307"
+               },
+               {
+                   "name": "Invesco Managed Income (UK) Inc",
+                   "allocation": 10,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "sedol",
+                   "code": "3305230"
+               },
+               {
+                   "name": "Investec As Pac Franchise B Acc GBP",
+                   "allocation": 20,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "isin",
+                   "code": "GB00B01NHW84"
+               },
+               {
+                   "name": "Invesco High Yield (UK) NT Inc",
+                   "allocation": 20,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "mex",
+                   "code": "BRINPE"
+               },
+               {
+                   "name": "Invesco Fixed Int Pn 8",
+                   "allocation": 20,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "isin",
+                   "code": "GB00B4WY9Y43"
+               }
+           ],
+               "atrs": [
+               {
+                   "code": "TKG-02-T30",
+                   "description": "Automation Test"
+               }
+               ]
+         },
+            "tst-20":{
+               "code": "Auto-Test Rebalance",
+               "name": "Automation Test iMPS Model",
+               "description": "Automation Test iMPS Model",
+               "funds": [
+               {
+                   "name": "Invesco Asia Trust plc",
+                   "allocation": 30,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "isin",
+                   "code": "GB0004535307"
+               },
+               {
+                   "name": "Invesco Managed Income (UK) Inc",
+                   "allocation": 10,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "sedol",
+                   "code": "3305230"
+               },
+               {
+                   "name": "Investec As Pac Franchise B Acc GBP",
+                   "allocation": 20,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "isin",
+                   "code": "GB00B01NHW84"
+               },
+               {
+                   "name": "Invesco High Yield (UK) NT Inc",
+                   "allocation": 20,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "mex",
+                   "code": "BRINPE"
+               },
+               {
+                   "name": "Invesco Fixed Int Pn 8",
+                   "allocation": 20,
+                   "currencyCode": "GBX",
+                   "fundCodeType": "isin",
+                   "code": "GB00B4WY9Y43"
+               }
+           ],
+               "atrs": [
+               {
+                   "code": "TKG-02-T30",
+                   "description": "Automation Test"
+               }
+               ]
+            }
+         },
+         "create_task":{
+            "prd-10":{
+               "assignedToPartyId":27203337,
+               "assignedByPartyId":27203337,
+               "taskCategory":"Miscellaneous",
+               "taskType":"Meeting",
+               "subject":"Meeting",
+               "startDate":"2019-07-24",
+               "dueDate":"2050-07-24",
+               "relatedPartyId":0
+            },
+            "uat-10":{
+               "assignedToPartyId":22430858,
+               "assignedByPartyId":22430858,
+               "taskCategory":"Miscellaneous",
+               "taskType":"Meeting",
+               "subject":"Meeting",
+               "startDate":"2019-07-24",
+               "dueDate":"2050-07-24",
+               "relatedPartyId":0
+            },
+            "tst-02":{
+               "assignedToPartyId":7604250,
+               "assignedByPartyId":7604250,
+               "taskCategory":"Miscellaneous",
+               "taskType":"Meeting",
+               "subject":"Meeting",
+               "startDate":"2019-07-24",
+               "dueDate":"2050-07-24",
+               "relatedPartyId":0
+            },
+            "tst-04":{
+               "assignedToPartyId":6197820,
+               "assignedByPartyId":6197820,
+               "taskCategory":"Miscellaneous",
+               "taskType":"Meeting",
+               "subject":"Meeting",
+               "startDate":"2019-07-24",
+               "dueDate":"2050-07-24",
+               "relatedPartyId":0
+            },
+            "tst-05":{
+               "assignedToPartyId":6046083,
+               "assignedByPartyId":6046083,
+               "taskCategory":"Miscellaneous",
+               "taskType":"Meeting",
+               "subject":"Meeting",
+               "startDate":"2019-07-24",
+               "dueDate":"2050-07-24",
+               "relatedPartyId":0
+            },
+            "tst-20":{
+               "assignedToPartyId":27496802,
+               "assignedByPartyId":27496802,
+               "taskCategory":"Miscellaneous",
+               "taskType":"Meeting",
+               "subject":"Meeting",
+               "startDate":"2019-07-24",
+               "dueDate":"2050-07-24",
+               "relatedPartyId":0
+            }
+         },
+         "create_client_contact":{
+            "prd-10":{
+                "type": "",
+                "value": "07700 900420",
+                "isDefault": "true"
+            },
+            "uat-10":{
+                "type": "",
+                "value": "07700 900420",
+                "isDefault": "true"
+            },
+            "tst-02":{
+                "type": "",
+                "value": "07700 900420",
+                "isDefault": "true"
+            },
+            "tst-04":{
+                "type": "",
+                "value": "07700 900420",
+                "isDefault": "true"
+            },
+            "tst-05":{
+                "type": "",
+                "value": "07700 900420",
+                "isDefault": "true"
+            },
+            "tst-20":{
+                "type": "",
+                "value": "07700 900420",
+                "isDefault": "true"
+            }
+         },
+         "reset_cff_client_data": {
+            "prd-10": {
+               "currentAdviser": {
+                  "id": 72551
+               },
+               "person": {
+                  "firstName": "PFP_Automation",
+                  "middleName": " ",
+                  "lastName": "Client",
+                  "maritalStatus": "Unknown",
+                  "territorialProfile": {
+                     "countryOfBirth": ""
+                  },
+                  "healthProfile": {
+                     "isSmoker": "Unknown",
+                     "inGoodHealth": ""
+                  },
+                  "hasWill": ""
+               }
+            },
+            "uat-10": {
+               "currentAdviser": {
+                  "id": ""
+               },
+               "person": {
+                  "firstName": "PFP_Automation",
+                  "middleName": " ",
+                  "lastName": "Client",
+                  "maritalStatus": "Unknown",
+                  "territorialProfile": {
+                     "countryOfBirth": ""
+                  },
+                  "healthProfile": {
+                     "isSmoker": "Unknown",
+                     "inGoodHealth": ""
+                  },
+                  "hasWill": ""
+               }
+            },
+            "tst-02": {
+               "currentAdviser": {
+                  "id": ""
+               },
+               "person": {
+                  "firstName": "PFP_Automation",
+                  "middleName": " ",
+                  "lastName": "Client",
+                  "maritalStatus": "Unknown",
+                  "territorialProfile": {
+                     "countryOfBirth": ""
+                  },
+                  "healthProfile": {
+                     "isSmoker": "Unknown",
+                     "inGoodHealth": ""
+                  },
+                  "hasWill": ""
+               }
+            },
+            "tst-04": {
+               "currentAdviser": {
+                  "id": 4107
+               },
+               "person": {
+                  "firstName": "PFP_Automation",
+                  "middleName": " ",
+                  "lastName": "Client",
+                  "maritalStatus": "Unknown",
+                  "territorialProfile": {
+                     "countryOfBirth": ""
+                  },
+                  "healthProfile": {
+                     "isSmoker": "Unknown",
+                     "inGoodHealth": ""
+                  },
+                  "hasWill": ""
+               }
+            },
+            "tst-05": {
+               "currentAdviser": {
+                  "id": ""
+               },
+               "person": {
+                  "firstName": "PFP_Automation",
+                  "middleName": " ",
+                  "lastName": "Client",
+                  "maritalStatus": "Unknown",
+                  "territorialProfile": {
+                     "countryOfBirth": ""
+                  },
+                  "healthProfile": {
+                     "isSmoker": "Unknown",
+                     "inGoodHealth": ""
+                  },
+                  "hasWill": ""
+               }
+            },
+            "tst-20": {
+               "currentAdviser": {
+                  "id": ""
+               },
+               "person": {
+                  "firstName": "PFP_Automation",
+                  "middleName": " ",
+                  "lastName": "Client",
+                  "maritalStatus": "Unknown",
+                  "territorialProfile": {
+                     "countryOfBirth": ""
+                  },
+                  "healthProfile": {
+                     "isSmoker": "Unknown",
+                     "inGoodHealth": ""
+                  },
+                  "hasWill": ""
+               }
+            }
+         },
+         "cff_about_you_segment_client_data": {
+            "prd-10": {
+               "currentAdviser": {
+                  "id": 72551
+               },
+               "person": {
+                  "firstName": "PFP_Automation",
+                  "lastName": "Client",
+                  "territorialProfile": {
+                     "ukResident": "true",
+                     "countryOfBirth": "England",
+                     "ukDomicile": "true",
+                     "expatriate": "false"
+                  },
+                  "healthProfile": {
+                     "isSmoker": "No",
+                     "smokedInLast12Months": "false",
+                     "inGoodHealth": "true"
+                  },
+                  "hasWill": "false"
+               }
+            },
+            "uat-10": {
+               "currentAdviser": {
+                  "id": ""
+               },
+               "person": {
+                  "firstName": "PFP_Automation",
+                  "lastName": "Client",
+                  "territorialProfile": {
+                     "ukResident": "true",
+                     "countryOfBirth": "England",
+                     "ukDomicile": "true",
+                     "expatriate": "false"
+                  },
+                  "healthProfile": {
+                     "isSmoker": "No",
+                     "smokedInLast12Months": "false",
+                     "inGoodHealth": "true"
+                  },
+                  "hasWill": "false"
+               }
+            },
+            "tst-02": {
+               "currentAdviser": {
+                  "id": ""
+               },
+               "person": {
+                  "firstName": "PFP_Automation",
+                  "lastName": "Client",
+                  "territorialProfile": {
+                     "ukResident": "true",
+                     "countryOfBirth": "England",
+                     "ukDomicile": "true",
+                     "expatriate": "false"
+                  },
+                  "healthProfile": {
+                     "isSmoker": "No",
+                     "smokedInLast12Months": "false",
+                     "inGoodHealth": "true"
+                  },
+                  "hasWill": false
+               }
+            },
+            "tst-04": {
+               "currentAdviser": {
+                  "id": 4107
+               },
+               "person": {
+                  "firstName": "PFP_Automation",
+                  "lastName": "Client",
+                  "territorialProfile": {
+                     "ukResident": "true",
+                     "countryOfBirth": "England",
+                     "ukDomicile": "true",
+                     "expatriate": "false"
+                  },
+                  "healthProfile": {
+                     "isSmoker": "No",
+                     "smokedInLast12Months": "false",
+                     "inGoodHealth": "true"
+                  },
+                  "hasWill": "false"
+               }
+            },
+            "tst-05": {
+               "currentAdviser": {
+                  "id": ""
+               },
+               "person": {
+                  "firstName": "PFP_Automation",
+                  "lastName": "Client",
+                  "territorialProfile": {
+                     "ukResident": "true",
+                     "countryOfBirth": "England",
+                     "ukDomicile": "true",
+                     "expatriate": "false"
+                  },
+                  "healthProfile": {
+                     "isSmoker": "No",
+                     "smokedInLast12Months": "false",
+                     "inGoodHealth": "true"
+                  },
+                  "hasWill": "false"
+               }
+            },
+            "tst-20": {
+               "currentAdviser": {
+                  "id": ""
+               },
+               "person": {
+                  "firstName": "PFP_Automation",
+                  "lastName": "Client",
+                  "territorialProfile": {
+                     "ukResident": "true",
+                     "countryOfBirth": "England",
+                     "ukDomicile": "true",
+                     "expatriate": "false"
+                  },
+                  "healthProfile": {
+                     "isSmoker": "No",
+                     "smokedInLast12Months": "false",
+                     "inGoodHealth": "true"
+                  },
+                  "hasWill": "false"
+               }
+            }
+         },
+         "add_dependant": {
+            "prd-10": {
+               "name": "Automation Dependant",
+               "relationshipType": "Spouse"
+            },
+            "uat-10": {
+               "name": "Automation Dependant",
+               "relationshipType": "Spouse"
+            },
+            "tst-02": {
+               "name": "Automation Dependant",
+               "relationshipType": "Spouse"
+            },
+            "tst-04": {
+               "name": "Automation Dependant",
+               "relationshipType": "Spouse"
+            },
+            "tst-05": {
+               "name": "Automation Dependant",
+               "relationshipType": "Spouse"
+            },
+            "tst-20": {
+               "name": "Automation Dependant",
+               "relationshipType": "Spouse"
+            }
+         },
+         "add_imps_model_to_fund_proposal":{
+            "prd-10":{
+              "holdings": [
+                {
+                  "fund": {
+                    "id": "F360",
+                    "name": "Invesco Asia Trust plc",
+                    "codes": {
+                      "citi": "BR75",
+                      "sedol": "0453530",
+                      "isin": "GB0004535307",
+                      "mex": "ITIAT"
+                    }
+                  },
+                  "percentageOfLumpsum": 30,
+                  "percentageOfRecurring": 30
+                },
+                {
+                  "fund": {
+                    "id": "F3247",
+                    "name": "Invesco Managed Income (UK) Inc",
+                    "codes": {
+                      "citi": "PE40",
+                      "sedol": "3305230",
+                      "isin": "GB0033052308",
+                      "mex": "PPWIP"
+                    }
+                  },
+                  "percentageOfLumpsum": 10,
+                  "percentageOfRecurring": 10
+                },
+                {
+                  "fund": {
+                    "id": "F3262",
+                    "name": "Investec As Pac Franchise B Acc GBP",
+                    "codes": {
+                      "citi": "GO97",
+                      "sedol": "B01NHW8",
+                      "isin": "GB00B01NHW84",
+                      "mex": "YFHKC"
+                    }
+                  },
+                  "percentageOfLumpsum": 20,
+                  "percentageOfRecurring": 20
+                },
+                {
+                  "fund": {
+                    "id": "F88822",
+                    "name": "Invesco High Yield (UK) NT Inc",
+                    "codes": {
+                      "citi": "FCU9",
+                      "sedol": "B3RW797",
+                      "isin": "GB00B3RW7979",
+                      "mex": "BRINPE"
+                    }
+                  },
+                  "percentageOfLumpsum": 20,
+                  "percentageOfRecurring": 20
+                },
+                {
+                  "fund": {
+                    "id": "F53670",
+                    "name": "Invesco Fixed Int Pn 8",
+                    "codes": {
+                      "citi": "Z370",
+                      "sedol": "B4WY9Y4",
+                      "isin": "GB00B4WY9Y43",
+                      "mex": ""
+                    }
+                  },
+                  "percentageOfLumpsum": 20,
+                  "percentageOfRecurring": 20
+                }
+              ],
+              "model": {
+                "id": 0,
+                "code": " "
+              }
+            },
+            "uat-10":{
+              "holdings": [
+                {
+                  "fund": {
+                    "id": "F360",
+                    "name": "Invesco Asia Trust plc",
+                    "codes": {
+                      "citi": "BR75",
+                      "sedol": "0453530",
+                      "isin": "GB0004535307",
+                      "mex": "ITIAT"
+                    }
+                  },
+                  "percentageOfLumpsum": 30,
+                  "percentageOfRecurring": 30
+                },
+                {
+                  "fund": {
+                    "id": "F3247",
+                    "name": "Invesco Managed Income (UK) Inc",
+                    "codes": {
+                      "citi": "PE40",
+                      "sedol": "3305230",
+                      "isin": "GB0033052308",
+                      "mex": "PPWIP"
+                    }
+                  },
+                  "percentageOfLumpsum": 10,
+                  "percentageOfRecurring": 10
+                },
+                {
+                  "fund": {
+                    "id": "F3262",
+                    "name": "Investec As Pac Franchise B Acc GBP",
+                    "codes": {
+                      "citi": "GO97",
+                      "sedol": "B01NHW8",
+                      "isin": "GB00B01NHW84",
+                      "mex": "YFHKC"
+                    }
+                  },
+                  "percentageOfLumpsum": 20,
+                  "percentageOfRecurring": 20
+                },
+                {
+                  "fund": {
+                    "id": "F88822",
+                    "name": "Invesco High Yield (UK) NT Inc",
+                    "codes": {
+                      "citi": "FCU9",
+                      "sedol": "B3RW797",
+                      "isin": "GB00B3RW7979",
+                      "mex": "BRINPE"
+                    }
+                  },
+                  "percentageOfLumpsum": 20,
+                  "percentageOfRecurring": 20
+                },
+                {
+                  "fund": {
+                    "id": "F53670",
+                    "name": "Invesco Fixed Int Pn 8",
+                    "codes": {
+                      "citi": "Z370",
+                      "sedol": "B4WY9Y4",
+                      "isin": "GB00B4WY9Y43",
+                      "mex": ""
+                    }
+                  },
+                  "percentageOfLumpsum": 20,
+                  "percentageOfRecurring": 20
+                }
+              ],
+              "model": {
+                "id": 0,
+                "code": " "
+              }
+            },
+            "tst-02":{
+              "holdings": [
+                {
+                  "fund": {
+                    "id": "F360",
+                    "name": "Invesco Asia Trust plc",
+                    "codes": {
+                      "citi": "BR75",
+                      "sedol": "0453530",
+                      "isin": "GB0004535307",
+                      "mex": "ITIAT"
+                    }
+                  },
+                  "percentageOfLumpsum": 30,
+                  "percentageOfRecurring": 30
+                },
+                {
+                  "fund": {
+                    "id": "F3247",
+                    "name": "Invesco Managed Income (UK) Inc",
+                    "codes": {
+                      "citi": "PE40",
+                      "sedol": "3305230",
+                      "isin": "GB0033052308",
+                      "mex": "PPWIP"
+                    }
+                  },
+                  "percentageOfLumpsum": 10,
+                  "percentageOfRecurring": 10
+                },
+                {
+                  "fund": {
+                    "id": "F3262",
+                    "name": "Investec As Pac Franchise B Acc GBP",
+                    "codes": {
+                      "citi": "GO97",
+                      "sedol": "B01NHW8",
+                      "isin": "GB00B01NHW84",
+                      "mex": "YFHKC"
+                    }
+                  },
+                  "percentageOfLumpsum": 20,
+                  "percentageOfRecurring": 20
+                },
+                {
+                  "fund": {
+                    "id": "F88822",
+                    "name": "Invesco High Yield (UK) NT Inc",
+                    "codes": {
+                      "citi": "FCU9",
+                      "sedol": "B3RW797",
+                      "isin": "GB00B3RW7979",
+                      "mex": "BRINPE"
+                    }
+                  },
+                  "percentageOfLumpsum": 20,
+                  "percentageOfRecurring": 20
+                },
+                {
+                  "fund": {
+                    "id": "F53670",
+                    "name": "Invesco Fixed Int Pn 8",
+                    "codes": {
+                      "citi": "Z370",
+                      "sedol": "B4WY9Y4",
+                      "isin": "GB00B4WY9Y43",
+                      "mex": ""
+                    }
+                  },
+                  "percentageOfLumpsum": 20,
+                  "percentageOfRecurring": 20
+                }
+              ],
+              "model": {
+                "id": 0
+              }
+            },
+            "tst-04":{
+              "holdings": [
+                {
+                  "fund": {
+                    "id": "F360",
+                    "name": "Invesco Asia Trust plc",
+                    "codes": {
+                      "citi": "BR75",
+                      "sedol": "0453530",
+                      "isin": "GB0004535307",
+                      "mex": "ITIAT"
+                    }
+                  },
+                  "percentageOfLumpsum": 30,
+                  "percentageOfRecurring": 30
+                },
+                {
+                  "fund": {
+                    "id": "F3247",
+                    "name": "Invesco Managed Income (UK) Inc",
+                    "codes": {
+                      "citi": "PE40",
+                      "sedol": "3305230",
+                      "isin": "GB0033052308",
+                      "mex": "PPWIP"
+                    }
+                  },
+                  "percentageOfLumpsum": 10,
+                  "percentageOfRecurring": 10
+                },
+                {
+                  "fund": {
+                    "id": "F3262",
+                    "name": "Investec As Pac Franchise B Acc GBP",
+                    "codes": {
+                      "citi": "GO97",
+                      "sedol": "B01NHW8",
+                      "isin": "GB00B01NHW84",
+                      "mex": "YFHKC"
+                    }
+                  },
+                  "percentageOfLumpsum": 20,
+                  "percentageOfRecurring": 20
+                },
+                {
+                  "fund": {
+                    "id": "F88822",
+                    "name": "Invesco High Yield (UK) NT Inc",
+                    "codes": {
+                      "citi": "FCU9",
+                      "sedol": "B3RW797",
+                      "isin": "GB00B3RW7979",
+                      "mex": "BRINPE"
+                    }
+                  },
+                  "percentageOfLumpsum": 20,
+                  "percentageOfRecurring": 20
+                },
+                {
+                  "fund": {
+                    "id": "F53670",
+                    "name": "Invesco Fixed Int Pn 8",
+                    "codes": {
+                      "citi": "Z370",
+                      "sedol": "B4WY9Y4",
+                      "isin": "GB00B4WY9Y43",
+                      "mex": ""
+                    }
+                  },
+                  "percentageOfLumpsum": 20,
+                  "percentageOfRecurring": 20
+                }
+              ],
+              "model": {
+                "id": 0,
+                "code": " "
+              }
+            },
+            "tst-05":{
+              "holdings": [
+                {
+                  "fund": {
+                    "id": "F360",
+                    "name": "Invesco Asia Trust plc",
+                    "codes": {
+                      "citi": "BR75",
+                      "sedol": "0453530",
+                      "isin": "GB0004535307",
+                      "mex": "ITIAT"
+                    }
+                  },
+                  "percentageOfLumpsum": 30,
+                  "percentageOfRecurring": 30
+                },
+                {
+                  "fund": {
+                    "id": "F3247",
+                    "name": "Invesco Managed Income (UK) Inc",
+                    "codes": {
+                      "citi": "PE40",
+                      "sedol": "3305230",
+                      "isin": "GB0033052308",
+                      "mex": "PPWIP"
+                    }
+                  },
+                  "percentageOfLumpsum": 10,
+                  "percentageOfRecurring": 10
+                },
+                {
+                  "fund": {
+                    "id": "F3262",
+                    "name": "Investec As Pac Franchise B Acc GBP",
+                    "codes": {
+                      "citi": "GO97",
+                      "sedol": "B01NHW8",
+                      "isin": "GB00B01NHW84",
+                      "mex": "YFHKC"
+                    }
+                  },
+                  "percentageOfLumpsum": 20,
+                  "percentageOfRecurring": 20
+                },
+                {
+                  "fund": {
+                    "id": "F88822",
+                    "name": "Invesco High Yield (UK) NT Inc",
+                    "codes": {
+                      "citi": "FCU9",
+                      "sedol": "B3RW797",
+                      "isin": "GB00B3RW7979",
+                      "mex": "BRINPE"
+                    }
+                  },
+                  "percentageOfLumpsum": 20,
+                  "percentageOfRecurring": 20
+                },
+                {
+                  "fund": {
+                    "id": "F53670",
+                    "name": "Invesco Fixed Int Pn 8",
+                    "codes": {
+                      "citi": "Z370",
+                      "sedol": "B4WY9Y4",
+                      "isin": "GB00B4WY9Y43",
+                      "mex": ""
+                    }
+                  },
+                  "percentageOfLumpsum": 20,
+                  "percentageOfRecurring": 20
+                }
+              ],
+              "model": {
+                "id": 0,
+                "code": " "
+              }
+            },
+            "tst-20":{
+               "holdings": [
+                  {
+                     "fund": {
+                        "id": "F360",
+                        "name": "Invesco Asia Trust plc",
+                        "codes": {
+                           "citi": "BR75",
+                           "sedol": "0453530",
+                           "isin": "GB0004535307",
+                           "mex": "ITIAT"
+                        }
+                     },
+                     "percentageOfLumpsum": 30,
+                     "percentageOfRecurring": 30
+                  },
+                  {
+                     "fund": {
+                        "id": "F3247",
+                        "name": "Invesco Managed Income (UK) Inc",
+                        "codes": {
+                           "citi": "PE40",
+                           "sedol": "3305230",
+                           "isin": "GB0033052308",
+                           "mex": "PPWIP"
+                        }
+                     },
+                     "percentageOfLumpsum": 10,
+                     "percentageOfRecurring": 10
+                  },
+                  {
+                     "fund": {
+                        "id": "F3262",
+                        "name": "Investec As Pac Franchise B Acc GBP",
+                        "codes": {
+                           "citi": "GO97",
+                           "sedol": "B01NHW8",
+                           "isin": "GB00B01NHW84",
+                           "mex": "YFHKC"
+                        }
+                     },
+                     "percentageOfLumpsum": 20,
+                     "percentageOfRecurring": 20
+                  },
+                  {
+                     "fund": {
+                        "id": "F88822",
+                        "name": "Invesco High Yield (UK) NT Inc",
+                        "codes": {
+                          "citi": "FCU9",
+                          "sedol": "B3RW797",
+                          "isin": "GB00B3RW7979",
+                          "mex": "BRINPE"
+                        }
+                     },
+                      "percentageOfLumpsum": 20,
+                      "percentageOfRecurring": 20
+                  },
+                  {
+                     "fund": {
+                        "id": "F53670",
+                        "name": "Invesco Fixed Int Pn 8",
+                        "codes": {
+                          "citi": "Z370",
+                          "sedol": "B4WY9Y4",
+                          "isin": "GB00B4WY9Y43",
+                          "mex": ""
+                        }
+                     },
+                      "percentageOfLumpsum": 20,
+                      "percentageOfRecurring": 20
+                  }
+               ],
+               "model": {
+                  "id": 0,
+                  "code": " "
+               }
+            }
+         }
+      }
+   }
+}
