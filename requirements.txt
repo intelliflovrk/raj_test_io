@@ -13,7 +13,7 @@ pytest-variables==1.7.1
 pytest-xdist==1.23.2
 pytest-xvfb==1.1.0
 PyPDF2==1.26.0
-werkzeug==0.14.1
+werkzeug==0.15.3
 pytest-json==0.4.0
 python-docx==0.8.10
 lxml>= 2.3.2
