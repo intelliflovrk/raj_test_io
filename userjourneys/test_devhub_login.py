@@ -15,6 +15,4 @@ def test_login_logoff(config):
             .assert_user_logged_out()
             )
 
-#first commit
-#second commit
-#third commit
+#first como
